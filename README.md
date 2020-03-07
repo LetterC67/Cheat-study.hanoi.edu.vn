@@ -5,9 +5,15 @@
 ### 1. Cách lấy hàm để cheat của một bài bất kì
   - B1: Đăng nhập, chọn một đề và làm đúng 100%
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
-  ![Chrome DevTools](https://github.com/TekNoCow/Cheat_strudy.hanoi.edu.vn/edit/master/img/cdb.PNG)
+  
+  ![Chrome DevTools](img/cdb.PNG)
+  <p align = "center"><b>Sau khi bật Chrome DevTools<b></p>
+  
   - B3: Vào mục Console, copy phần code trong file 'cheatCode.js', paste vào và Enter
   - B4: Copy phần output, đó là hàm để chạy lần sau
+  ![Chrome DevTools](img/out.PNG)
+  <p align = "center"><b>Mục Console khoanh màu đỏ, phần hàm cần copy tô màu vàng nhạt<b></p>
+  
 ### 2. Cách cheat
   - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được)
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
