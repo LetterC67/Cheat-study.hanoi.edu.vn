@@ -7,13 +7,13 @@
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   
   ![Chrome DevTools](img/cdb.PNG)
-  <p align = "center"><b>Sau khi bật Chrome DevTools<b></p>
+  <p align = "center"><b>Sau khi bật Chrome DevTools</b></p>
   
   - B3: Vào mục Console, copy phần code trong file 'cheatCode.js', paste vào và Enter
   - B4: Copy phần output, đó là hàm để chạy lần sau
   
   ![Chrome DevTools](img/out.PNG)
-  <p align = "center"><b>Mục Console khoanh màu đỏ, phần hàm cần copy tô màu vàng nhạt<b></p>
+  <p align = "center"><b>Mục Console khoanh màu đỏ, phần hàm cần copy tô màu vàng nhạt</b></p>
   
   - B5: Copy xong thì nộp bài đi hoặc không thích thì tắt đi cũng được
   
