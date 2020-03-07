@@ -20,6 +20,6 @@
 ### 2. Cách cheat
   - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được)
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
-  - B3: Paste phần hàm vào(hàm tự tạo hoặc lấy trong thư mục 'cheat code', bấm Enter
+  - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
   
   ***Lưu ý: Làm càng nhanh càng tốt!!!***
