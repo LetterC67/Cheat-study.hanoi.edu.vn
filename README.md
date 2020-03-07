@@ -2,7 +2,7 @@
 ## I/ Giới thiệu
 - Không có gì ngoài việc thêm vào cho đầy đủ
 ## II/ Cách sử dụng
-### 1. Cách lấy hàm để cheat của một bài bất kì
+### 1. Cách lấy hàm để cheat của một bài bất kì (Không đọc phần này nếu quá lười hoặc không muốn đóng góp cho cộng đồng!!!)
   - B1: Đăng nhập, chọn một đề và làm đúng 100% nhưng chưa nộp bài vội
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   
