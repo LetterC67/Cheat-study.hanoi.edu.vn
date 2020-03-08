@@ -38,3 +38,4 @@ SaveUserAnswer('21637','56498');
 SaveUserAnswer('21651','56554');
 SaveUserAnswer('21641','56514');
 SaveUserAnswer('21616','56414');
+SubmitTestResultClick();
