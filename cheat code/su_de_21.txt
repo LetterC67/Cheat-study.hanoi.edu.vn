@@ -1,4 +1,4 @@
-"SaveUserAnswer('21282','55080');
+SaveUserAnswer('21282','55080');
 SaveUserAnswer('21267','55019');
 SaveUserAnswer('21249','54948');
 SaveUserAnswer('21271','55037');
@@ -38,4 +38,4 @@ SaveUserAnswer('21258','54984');
 SaveUserAnswer('21264','55009');
 SaveUserAnswer('21254','54967');
 SaveUserAnswer('21270','55030');
-"
+SubmitTestResultClick();
