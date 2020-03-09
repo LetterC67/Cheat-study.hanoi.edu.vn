@@ -33,7 +33,7 @@
     ![](img/getid.png)
     
     - B3.3: Làm tương tự với 3 đáp án còn lại (phải trong cùng 1 câu hỏi), tìm ra giá trị value nhỏ nhất trong 4 đáp án
-    - B3.4: Vào lại tab 'Console', thay số 66 ở dòng 'MinID = 66;' thành số nhỏ nhất bạn vửa tìm được. Ví dụ có bạn tìm được 4 ID là 12567, 12568, 12569, 12570 thì cần thay thành 'MinID = 12567;' (nhớ paste lại vào đâu đó nữa, sẽ cần ở bước 3.13)
+    - B3.4: Vào lại tab 'Console', thay số 66 ở dòng 'MinID = 66;' thành số nhỏ nhất bạn vửa tìm được. Ví dụ có bạn tìm được 4 ID là 12567, 12568, 12569, 12570 thì cần thay thành 'MinID = 12567;'. Chỉnh cả giá trị của 'Ques' thành 25 nếu đề có 25 câu(mặc địn là 40) (nhớ paste lại đoạn code vừa sửa vào đâu đó nữa, sẽ cần ở bước 3.13)
     - B3.5: Bấm Enter
     - B3.6: Trở về tab 'Element', nháy đúp chuột vào phần '<script>...</script>' được gạch đỏ trong ảnh, nó là cái tag script thứ 2 từ dưới lên
       
