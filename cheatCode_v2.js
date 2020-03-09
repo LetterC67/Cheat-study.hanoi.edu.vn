@@ -1,4 +1,4 @@
-﻿var buttons = document.querySelectorAll('input[type="radio"]')
+var buttons = document.querySelectorAll('input[type="radio"]');
 for(var i=0;i<buttons.length;i++){
     buttons[i].checked=true;
     buttons[i].onclick();
