@@ -24,17 +24,30 @@
   - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code này vào
   - B3: Chỉnh sửa đoạn code **_(Cần đọc kĩ đây này, nhất là mấy bạn chưa vọc vạch mấy cái này bao giờ)_**:
     - B3.1: Vào tab 'Elements', ở hàng trên cùng, bấm vào mũi tên tận cùng bên trái
+    
+    ![](img/arrow.PNG)
+    <p align = "center"><b>Mũi tên khoanh đỏ</b></p>
+    
     - B3.2: Di chuyển chuột vào một đáp án (không bấm vào), ghi nhớ phần value được gạch đỏ trong ảnh
+    
+    ![](img/getid.png)
+    
     - B3.3: Làm tương tự với 3 đáp án còn lại (phải trong cùng 1 câu hỏi), tìm ra giá trị value nhỏ nhất trong 4 đáp án
     - B3.4: Vào lại tab 'Console', thay số 66 ở dòng 'MinID = 66;' thành số nhỏ nhất bạn vửa tìm được. Ví dụ có bạn tìm được 4 ID là 12567, 12568, 12569, 12570 thì cần thay thành 'MinID = 12567;' (nhớ paste lại vào đâu đó nữa, sẽ cần ở bước 3.13)
     - B3.5: Bấm Enter
     - B3.6: Trở về tab 'Element', nháy đúp chuột vào phần '<script>...</script>' được gạch đỏ trong ảnh, nó là cái tag script thứ 2 từ dưới lên
+      
+    ![](img/func.PNG)
+    
     - B3.7: Bấm chuột phải vào phần lệnh vừa hiện ra, chọn 'Edit as HTML'
     - B3.8: Tìm đến hàm 'SendUserTestResultToServer' (trong ảnh)
     - B3.9: Copy từ dòng '$.ajax...' đến '});' (trong ảnh, chỗ này trước hàm 'SaveUserAnswer' một ít), paste chỗ đó vào notepad
+    
+    ![](img/func2.PNG)
+     
     - B3.10: Tìm dòng 'SubmitType: type', sửa thành 'SubmitType: 2' và xóa dòng 'ClearStore();'
     - B3.11: Trở về 'Console', paste phần code vừa sửa vào và Enter
-    - B3.12: Đợi vài giây sẽ có kết quả, copy toàn bộ câu trả lời sai, paste vào đâu đó
+    - B3.12: Đợi vài giây sẽ có kết quả, copy toàn bộ câu trả lời sai, paste vào đâu đó (một số đề được 10 luôn)
     - B3.13: Lấy phần code ở B3.4 sửa runtime thành 2, sửa 'wrong = "... " ' thành 'wrong = "những-câu-sai-ở-b3.12" ' (Nhớ có dâu ngoặc kép). Ví dụ: wrong = "Câu 2. C, Câu 3. B, Câu 5. C"
     - B3.14: Enter và paste phần code ở B3.9 vào và Enter tiếp
     - B3.15: Lặp lại B3.13 cho đến runtime = 4 (mỗi lần làm thì runtime tăng lên 1), vẫn tiếp tục lấy những đáp án sai thay thế vào wrong
