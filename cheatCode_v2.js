@@ -4,6 +4,13 @@ for(var i=0;i<buttons.length;i++){
     buttons[i].onclick();
  }
 
+MinID = parseInt(buttons[0].value);
+for(i=1;i<4;i++){
+	if(parseInt(buttons[i].value) < MinID)
+		MinID = parseInt(buttons[i].value);
+}
+MinID = MinID % 4;
+
 curQuesIdList = []
 curAnsIdList = []
 for(i=0;i<testResultLocalObject.length;i++){
@@ -13,11 +20,11 @@ for(i=0;i<testResultLocalObject.length;i++){
 prevQuesIdList = []
 prevAnsIdList = []
 
-//ID đáp án nhỏ nhất trong một câu
-MinID = 66;
-MinID = MinID % 4;
-
 runtime = 1 // Lần chạy
+RT = localStorage.getItem("runtime");
+if(RT != null)
+	runtime = parseInt(RT) + 1;
+	
 if (runtime == 1){
 	prevQuesIdList = curQuesIdList;
 	prevAnsIdList = curAnsIdList;
@@ -26,15 +33,16 @@ if (runtime == 1){
 	prevAnsIdList = JSON.parse(localStorage.getItem("prevAnsID"));
 }
 
-//Danh sách những câu trả lời sai
+Ques = buttons.length/4;
+wrong = "";
+if(runtime == 1)
+	for(i=0;i<Ques;i++){
+		wrong = wrong + i.toString() + ". ";
+	}
+else
+	wrong = localStorage.getItem("wrong");
 
-Ques = 40 //Số câu hỏi ở đây !
-wrong = ""
-for(i=0;i<Ques;i++){
-	wrong = wrong + i.toString() + ". ";
-}
-
-WrongList = []
+WrongList = [];
 for(i=0;i<wrong.length;i++){
 	if(wrong.charAt(i) == "."){
     	if(wrong.charAt(i-2) >= '0' && wrong.charAt(i-2) <= '9'){
@@ -62,13 +70,17 @@ for(i=0;i<testResultLocalObject.length;i++){
 localStorage.setItem("prevQuesID",JSON.stringify(curQuesIdList));
 localStorage.setItem("prevAnsID",JSON.stringify(curAnsIdList));
 
-cheatCode = ""
+cheatCode = "";
 for(i=0;i<curQuesIdList.length;i++){	
     SaveUserAnswer(curQuesIdList[i],curAnsIdList[i]);
     if(runtime == 4){
 		cheatCode = cheatCode + "SaveUserAnswer('"+curQuesIdList[i]+"','"+curAnsIdList[i]+"');\n";
-		console.log("Copy đoạn cheat code trên để có thể dùng lần sau!");	
-		for(i=0;i<testResultLocalObject.length;i++){
+	}
+}
+if(runtime == 4){	
+	console.log(cheatCode);
+	console.log("Copy đoạn cheat code trên để có thể dùng lần sau!");	
+	for(i=0;i<testResultLocalObject.length;i++){
 			var buttons = document.querySelectorAll('input[type="radio"]')
 			for(var j=0;j<buttons.length;j++){
 				if(buttons[j].name == testResultLocalObject[i].QuestionId && buttons[j].value == testResultLocalObject[i].AnswerId){
@@ -78,6 +90,7 @@ for(i=0;i<curQuesIdList.length;i++){
 			} 
 			
 		}
-		console.log("Các đáp án đúng đã được tự động chọn! Xin mời tham khảo :) ");
-	}
+	console.log("Các đáp án đúng đã được tự động chọn! Xin mời tham khảo :) ");
 }
+
+localStorage.setItem("runtime",runtime.toString());
