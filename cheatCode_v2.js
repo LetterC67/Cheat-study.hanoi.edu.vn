@@ -65,5 +65,19 @@ localStorage.setItem("prevAnsID",JSON.stringify(curAnsIdList));
 cheatCode = ""
 for(i=0;i<curQuesIdList.length;i++){	
     SaveUserAnswer(curQuesIdList[i],curAnsIdList[i]);
-    cheatCode = cheatCode + "SaveUserAnswer('"+curQuesIdList[i]+"','"+curAnsIdList[i]+"');\n";
+    if(runtime == 4){
+		cheatCode = cheatCode + "SaveUserAnswer('"+curQuesIdList[i]+"','"+curAnsIdList[i]+"');\n";
+		console.log("Copy đoạn cheat code trên để có thể dùng lần sau!");	
+		for(i=0;i<testResultLocalObject.length;i++){
+			var buttons = document.querySelectorAll('input[type="radio"]')
+			for(var j=0;j<buttons.length;j++){
+				if(buttons[j].name == testResultLocalObject[i].QuestionId && buttons[j].value == testResultLocalObject[i].AnswerId){
+					buttons[j].checked=true;
+					buttons[j].onclick();
+				}
+			} 
+			
+		}
+		console.log("Các đáp án đúng đã được tự động chọn! Xin mời tham khảo :) ");
+	}
 }
