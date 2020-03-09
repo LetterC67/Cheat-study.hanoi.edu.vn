@@ -1,4 +1,4 @@
-var buttons = document.querySelectorAll('input[type="radio"]');
+var buttons = document.querySelectorAll('input[type="radio"]')
 for(var i=0;i<buttons.length;i++){
     buttons[i].checked=true;
     buttons[i].onclick();
@@ -27,7 +27,12 @@ if (runtime == 1){
 }
 
 //Danh sách những câu trả lời sai
-wrong = "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35. 36. 37. 38. 39. 40. ";
+
+Ques = 40 //Số câu hỏi ở đây !
+wrong = ""
+for(i=0;i<Ques;i++){
+	wrong = wrong + i.toString() + ". ";
+}
 
 WrongList = []
 for(i=0;i<wrong.length;i++){
