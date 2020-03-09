@@ -37,10 +37,13 @@
     - B3.5: Bấm Enter
     - B3.6: Trở về tab 'Element', nháy đúp chuột vào phần '<script>...</script>' được gạch đỏ trong ảnh, nó là cái tag script thứ 2 từ dưới lên
       
-    ![](img/func.PNG)
+    ![](img/script.PNG)
     
     - B3.7: Bấm chuột phải vào phần lệnh vừa hiện ra, chọn 'Edit as HTML'
     - B3.8: Tìm đến hàm 'SendUserTestResultToServer' (trong ảnh)
+    
+    ![](img/func.PNG)
+    
     - B3.9: Copy từ dòng '$.ajax...' đến '});' (trong ảnh, chỗ này trước hàm 'SaveUserAnswer' một ít), paste chỗ đó vào notepad
     
     ![](img/func2.PNG)
