@@ -62,6 +62,7 @@
   - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được)
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
- _- Note (Dành cho các bạn chăm chỉ muốn xem đáp án để học hỏi): Có thể xóa dòng 'SubmitTestResultClick()', vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn và nộp bài như bình thường_
+
+_- Note (Dành cho các bạn chăm chỉ muốn xem đáp án để học hỏi): Có thể xóa dòng 'SubmitTestResultClick()', vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn và nộp bài như bình thường_
   
   ***Lưu ý: Làm càng nhanh càng tốt!!!***
