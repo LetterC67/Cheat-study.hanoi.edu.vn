@@ -33,11 +33,11 @@
     
     ![](img/func2.PNG)
      
-    - B3.5: Tìm dòng 'SubmitType: type', sửa thành 'SubmitType: 2' và xóa dòng 'ClearStore();'
+    - B3.5: Tìm dòng 'SubmitType: type', sửa thành 'SubmitType: 2' và xóa dòng 'ClearStore();' (Giữ đoạn code này lại để tái sử dụng)
     - B3.6: Trở về 'Console', paste phần code vừa sửa vào và Enter
     - B3.7: Đợi vài giây sẽ có kết quả, tiếp tục vào 'Console', chạy dòng lệnh trong 'getWrongAnswers.js'( _Lưu ý: Một số đề sẽ được 10 luôn!_)
     - B3.8: Enter và paste phần code ở B3.9 vào và Enter tiếp
-    - B3.9: Lặp lại B3.1 cho đến lần thứ 4
+    - B3.9: Lặp lại B3.1 cho đến lần thứ 4 (bỏ qua B3.2 -> B3.5 ở lần sau!)
     - B3.10: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác, có thể tham khảo đáp án đã được tick đúng
     
    
