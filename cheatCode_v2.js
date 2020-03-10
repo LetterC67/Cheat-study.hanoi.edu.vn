@@ -91,6 +91,7 @@ if(runtime == 4){
 			
 		}
 	console.log("Các đáp án đúng đã được tự động chọn! Xin mời tham khảo :) ");
+	localStorage.clear();
 }
-
-localStorage.setItem("runtime",runtime.toString());
+else
+	localStorage.setItem("runtime",runtime.toString());
