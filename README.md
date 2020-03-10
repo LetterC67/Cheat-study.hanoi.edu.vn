@@ -37,7 +37,7 @@
     ![](img/func2.PNG)
      
     - B3.5: Tìm dòng 'SubmitType: type', sửa thành 'SubmitType: 2' và xóa dòng 'ClearStore();' (Giữ đoạn code này lại để tái sử dụng)
-    - B3.6: Vào tab 'Console', paste code trong file 'cheatCode_v2.js' vào, bấm Enter. Tiếp tục lấy đoạn code ở B3.5 paste vào, Enter
+    - B3.6: Vào tab 'Console'(đã có sẵn code trong file 'cheatCode_v2.js') bấm Enter. Tiếp tục lấy đoạn code ở B3.5 paste vào, Enter
     - B3.7: Đợi vài giây sẽ có kết quả, tiếp tục vào 'Console', chạy dòng lệnh trong 'getWrongAnswers.js' hay chính là dòng dưới đây( _Lưu ý: Một số đề sẽ được 10 luôn!_)
     
     ```javascript
