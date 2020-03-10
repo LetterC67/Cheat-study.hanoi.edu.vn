@@ -23,7 +23,10 @@
   - B1: Vào 'cheatCode_v2.js', copy phần code ra
   - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code này vào
   - B3: Chỉnh sửa đoạn code **_(Cần đọc kĩ đây này, nhất là mấy bạn chưa vọc vạch mấy cái này bao giờ)_**:
-    - B3.1: Vào tab 'console', paste code trong file 'cheatCode_v2.js' vào, bấm Enter
+    - B3.1: Ở tab 'Elements', tìm đến dòng '<script>...</script>' thứ 2 từ dưới lên(trong ảnh), bấm đúp chuột vào
+
+    ![](img/script.PNG)
+
     - B3.2: Bấm chuột phải vào phần lệnh vừa hiện ra, chọn 'Edit as HTML'
     - B3.3: Tìm đến hàm 'SendUserTestResultToServer' (trong ảnh)
     
@@ -34,13 +37,13 @@
     ![](img/func2.PNG)
      
     - B3.5: Tìm dòng 'SubmitType: type', sửa thành 'SubmitType: 2' và xóa dòng 'ClearStore();' (Giữ đoạn code này lại để tái sử dụng)
-    - B3.6: Trở về 'Console', paste phần code vừa sửa vào và Enter
+    - B3.6: Vào tab 'Console', paste code trong file 'cheatCode_v2.js' vào, bấm Enter. Tiếp tục lấy đoạn code ở B3.5 paste vào, Enter
     - B3.7: Đợi vài giây sẽ có kết quả, tiếp tục vào 'Console', chạy dòng lệnh trong 'getWrongAnswers.js' hay chính là dòng dưới đây( _Lưu ý: Một số đề sẽ được 10 luôn!_)
     
     ```javascript
     localStorage.setItem("wrong",document.getElementById("lblFalseAnser").innerText);
     ```
-    - B3.8: Lặp lại B3.1 cho đến lần thứ 4 (bỏ qua B3.2 -> B3.5 ở lần sau!)
+    - B3.8: Lặp lại B3.6 cho đến lần thứ 4 
     - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác, có thể tham khảo đáp án đã được tick đúng
     
    
