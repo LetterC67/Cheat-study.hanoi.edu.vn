@@ -33,7 +33,7 @@ if (runtime == 1){
 	prevAnsIdList = JSON.parse(localStorage.getItem("prevAnsID"));
 }
 
-Ques = buttons.length/4;
+Ques = buttons.length/4 + 1;
 wrong = "";
 if(runtime == 1)
 	for(i=0;i<Ques;i++){
