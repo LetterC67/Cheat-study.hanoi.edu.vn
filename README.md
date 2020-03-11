@@ -49,6 +49,7 @@
     - B3.8: Lặp lại B3.6 cho đến lần thứ 4 
     - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác, có thể tham khảo đáp án đã được tick đúng
     
+    __*Video hướng dẫn: https://drive.google.com/file/d/1fxACUJK5tv3L6m-eY56s1mlthyBldjah/preview*__
    
   
 ### 2. Cách cheat
