@@ -60,3 +60,7 @@
 _- Note (Dành cho các bạn chăm chỉ muốn xem đáp án để học hỏi): Có thể xóa dòng 'SubmitTestResultClick()', vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn và nộp bài như bình thường_
   
   ***Lưu ý: Làm càng nhanh càng tốt!!!***
+
+## III/ Liên hệ
+   - Anh N.X.D lớp 9A4 - THCS Cầu Giấy
+   - Email: congtytotovietnam@gmail.com
