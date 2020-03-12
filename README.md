@@ -25,6 +25,11 @@
 #### *_- Cách 2 (Dành cho những bạn lười, không muốn dùng não, nhưng muốn dùng được cách này hãy bật 100% công suất não lên và đọc kĩ!!!)_*
   - B1: Vào 'cheatCode_v2.js', copy phần code ra
   - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code này vào
+   
+   **_Lưu ý: Trước khi paste đoạn code vào lần đầu tiên vầ chạy, hãy chạy lệnh dưới đây để đảm bảo khả năng thành công:_**
+  ```javascript
+  ClearStore();
+  ```
   - B3: Chỉnh sửa đoạn code **_(Cần đọc kĩ đây này, nhất là mấy bạn chưa vọc vạch mấy cái này bao giờ)_**:
     - B3.1: Ở tab 'Elements', tìm đến dòng '<script>...</script>' thứ 2 từ dưới lên(trong ảnh), bấm đúp chuột vào
 
