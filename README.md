@@ -2,7 +2,8 @@
 ## I/ Giới thiệu
 - Đầu tiên, đây là một sản phẩm nho nhỏ được tạo ra bởi sự rảnh rỗi, một chút lười biến cùng với một ý tưởng đột ngột vào một buổi trưa khá-là-đẹp-trời 
 - Bạn có thể lấy được toàn bộ đáp án của một đề bất kì trên trang web làm bài trực tuyến study.hanoi.edu.vn hoặc đơn giản chỉ là được rất nhiều con 10
-- Khuyến khích sử dụng với mục đích tích cực (lấy đáp án tham khảo, học tập). Có thể dùng với việc giải trí, đua top, khoe profile với bạn bè hay cô bắt làm ??... Đương nhiên là làm như vậy tốn thời gian vô ích, không mang lại mấy kiến thức nên bạn nên suy nghĩ trước khi sử dụng vào những mục đích như vậy!!
+- Khuyến khích sử dụng với mục đích tích cực (lấy đáp án tham khảo, học tập). Có thể dùng với việc giải trí, đua top, khoe profile với bạn bè??... Đương nhiên là làm như vậy tốn thời gian vô ích, không mang lại mấy kiến thức nên bạn nên suy nghĩ trước khi sử dụng vào những mục đích như vậy!!
+- Một lần nữa xin nhắc lại là không được quá lạm dụng, phải tự mình tìm hiểu, làm bài, chỉ dùng code để **Xem đáp án để học tập**, không nên quá lạm dụng vào việc ~~**lấy điểm 10 khoe thành tích,...**~~
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### 1. Cách lấy hàm để cheat của một bài bất kì (Không đọc phần này nếu quá lười hoặc không muốn đóng góp cho cộng đồng!!!)
@@ -67,5 +68,4 @@ _- Note (Dành cho các bạn chăm chỉ muốn xem đáp án để học hỏi
   ***Lưu ý: Làm càng nhanh càng tốt!!!***
 
 ## III/ Liên hệ
-   - Anh N.X.D lớp 9A4 - THCS Cầu Giấy
    - Email: congtytotovietnam@gmail.com
