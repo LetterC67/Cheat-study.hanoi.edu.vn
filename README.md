@@ -59,7 +59,7 @@
    
   
 ### 2. Cách cheat
-  - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được)
+  - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được hoặc ở trong thư mục cheat code)
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
 
