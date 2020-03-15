@@ -58,7 +58,7 @@
     __*Video hướng dẫn: https://drive.google.com/file/d/1fxACUJK5tv3L6m-eY56s1mlthyBldjah/preview*__
    
   
-### 2. Cách cheat
+### 2. Cách cheat sử dụng hàm có sẵn
   - B1: Đăng nhập, vào một đề (đúng với đề của hàm đã tìm được hoặc ở trong thư mục cheat code)
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
