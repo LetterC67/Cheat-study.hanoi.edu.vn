@@ -13,7 +13,7 @@
   - B1: Đăng nhập, chọn một đề và làm đúng 100% nhưng chưa nộp bài vội
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
 
-  ![Chrome DevTools](img/cdb.PNG)
+  ![Chrome DevTools](img/cdb.png)
   <p align = "center"><b>Sau khi bật Chrome DevTools</b></p>
 
   - B3: Vào mục Console, copy phần code trong file 'cheatCode.js', paste vào và Enter
