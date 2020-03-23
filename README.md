@@ -6,6 +6,7 @@
 - Một lần nữa xin nhắc lại là **gian lận KHÔNG HỀ tốt một tí nào cả**(mặc dù có chữ cheat đấy vì không biết nên đặt tên là gì!) và bạn phải tự chịu trách nhiệm cho việc gian lận khi làm bài của mình . Bạn cũng không được quá lạm dụng, phải tự mình tìm hiểu, làm bài, chỉ dùng code để **xem đáp án để học tập**, không nên quá lạm dụng vào việc ~~**lấy điểm 10 khoe thành tích,...**~~
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
+### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues" nhé! :warning: :warning:
 ### 1. Cách lấy hàm để cheat của một bài bất kì (Không đọc phần này nếu quá lười hoặc không muốn đóng góp cho cộng đồng!!!)
 #### *_- Cách 1 (Dành cho những bạn chăm chỉ học bài, nên đây là cách được khuyến nghị!)_* 
    
