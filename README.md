@@ -3,7 +3,7 @@
 - Đầu tiên, đây là một sản phẩm nho nhỏ được tạo ra bởi sự rảnh rỗi, một chút lười biến cùng với một ý tưởng đột ngột vào một buổi trưa khá-là-đẹp-trời. Nó được tạo ra với ban đầu mục đích lấy đáp án đúng sau khi làm bài xong (vì hệ thống khá là bất cập khi không hiện đáp án)
 - Bạn có thể lấy được toàn bộ đáp án của một đề bất kì trên trang web làm bài trực tuyến study.hanoi.edu.vn hoặc đơn giản chỉ là được rất nhiều con 10
 - Khuyến khích sử dụng với mục đích tích cực (lấy đáp án tham khảo, học tập). Có thể dùng với việc giải trí, đua top, khoe profile với bạn bè??... Đương nhiên là làm như vậy tốn thời gian vô ích, không mang lại mấy kiến thức nên bạn nên suy nghĩ trước khi sử dụng vào những mục đích như vậy!!
-- Một lần nữa xin nhắc lại là **gian lận KHÔNG HỀ tốt một tí nào cả**(mặc dù có chữ **cheat** đấy vì đặt như thế khá là nhanh và ngắn gon!) và bạn phải tự chịu trách nhiệm cho việc gian lận khi làm bài của mình . Bạn cũng không được quá lạm dụng, phải tự mình tìm hiểu, làm bài, chỉ dùng code để **xem đáp án để học tập**, thi thoảng lấy 1, 2 điểm 10 cũng được nhưng mà nếu giáo viên đã bảo làm thì ~~**tuyệt đối không nhé!!!**~~
+- Một lần nữa xin nhắc lại là **gian lận KHÔNG HỀ tốt một tí nào cả**(mặc dù có chữ **cheat** đấy vì đặt như thế khá là nhanh và ngắn gon!) và bạn phải tự chịu trách nhiệm cho việc gian lận khi làm bài của mình . Bạn cũng không được quá lạm dụng, phải tự mình tìm hiểu, làm bài, chỉ dùng code để **xem đáp án để học tập**, thi thoảng lấy 1, 2 điểm 10 cho vui cũng được (không khuyến khích) nhưng mà nếu giáo viên đã bảo hoặc các bạn đang tập trung ôn thi làm thì ~~**tuyệt đối không nhé!!!**~~
 
 **:x: KHÔNG DÙNG VÀO MỤC ĐÍCH XẤU!!! :x:**
 
