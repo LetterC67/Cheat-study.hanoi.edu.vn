@@ -9,7 +9,7 @@
 
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
-### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues" nhé! :warning: :warning:
+### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
 ### 1. Cách lấy hàm đáp án của một bài bất kì (Không đọc phần này nếu quá lười hoặc không muốn đóng góp cho cộng đồng!!!)
 #### *_- Cách 1 (Dành cho những bạn chăm chỉ làm bài, nên đây là cách được khuyến nghị!)_* 
    
