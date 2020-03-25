@@ -29,9 +29,9 @@
   
 #### *_- Cách 2 (Dành cho những bạn không muốn tự làm bài, không khuyến khích nên hãy tự sức mình làm bài trước nhé! Muốn dùng được cách này hãy bật 100% công suất não lên và đọc kĩ!!! Lưu ý: Nếu đề đã có trong thư mục "cheat code" thì hãy chuyển xuống mục 2 ở dưới cho nhanh)_*
   - B1: Vào 'cheatCode_v2.js', copy phần code ra
-  - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code này vào
+  - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code trong file "cheatCode_v2.js" vào
    
-   **_:exclamation: :exclamation: :exclamation: Lưu ý: Trước khi paste đoạn code vào lần đầu tiên vầ chạy, hãy chạy lệnh dưới đây để đảm bảo khả năng thành công:_**
+   **_:exclamation: :exclamation: :exclamation: Lưu ý: Ở LẦN ĐÂU TIÊN, trước khi paste đoạn code trong "cheatCode_v2.js", hãy chạy lệnh dưới đây để đảm bảo khả năng thành công:_**
   ```javascript
   ClearStore();
   ```
