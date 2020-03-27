@@ -57,9 +57,9 @@
     localStorage.setItem("wrong",document.getElementById("lblFalseAnser").innerText);
     ```
     - B3.8: Lặp lại B3.6 cho đến lần thứ 4 
-    - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác hoặc có thể gửi về email để up lên đây, các đáp án được tick đúng hoàn toàn (theo như hệ thông thôi!) cho các bạn tham khảo!
+    - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác hoặc có thể gửi về email để up lên đây, các đáp án được tick đúng hoàn toàn (theo như hệ thống thôi!) cho các bạn tham khảo!
     
-    __*Video hướng dẫn: https://drive.google.com/file/d/1fxACUJK5tv3L6m-eY56s1mlthyBldjah/preview*__
+    __*:tv: :tv: Video hướng dẫn: https://drive.google.com/file/d/1fxACUJK5tv3L6m-eY56s1mlthyBldjah/preview*__
    
   
 ### 2. Cách hiện đáp án sử dụng hàm có sẵn (chỉ áp dụng cho khối 9)
@@ -67,9 +67,7 @@
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
 
-_- Note (Khi nộp bấm Enter thì hệ thống sẽ nộp bài luôn): Có thể xóa dòng 'SubmitTestResultClick()' để không cho tự động nộp bài và bấm Enter. Tiếp tục vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn và nộp bài như bình thường_
+_**- Chú ý!!: Khi sử dụng code thì hệ thống sẽ nộp bài luôn. Trước khi chạy code thì có thể xóa đoạn "SubmitTestResultClick()" để không cho hệ thống nộp bài luôn. Tiếp tục vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn và nộp bài như bình thường**_
   
-  ***Lưu ý: Làm càng nhanh càng tốt!!!***
-
 ## III/ Liên hệ
    - Email: congtytotovietnam@gmail.com
