@@ -12,9 +12,9 @@ if (confirm('Bạn muốn tải file đáp án không?')) {
     ques = document.getElementsByClassName("ImportWord-Normal");
     _ques = [];
 
-    for(i=0;i<y.length;i++)
+    for(i=0;i<ques.length;i++)
         if(ques[i].innerText.replace(/\s/g, '').length)
-            _ques.push(y[i]);
+            _ques.push(ques[i]);
 
     data=""
     for(i=0;i<_ques.length;i++)    
@@ -36,6 +36,6 @@ if (confirm('Bạn muốn tải file đáp án không?')) {
     document.body.removeChild(element);
 }else{
     
-}'
+}
 
 // * https://ourcodeworld.com/articles/read/189/how-to-create-a-file-and-generate-a-download-with-javascript-in-the-browser-without-a-server
