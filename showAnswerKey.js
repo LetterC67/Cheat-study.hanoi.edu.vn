@@ -1,5 +1,5 @@
+var buttons = document.querySelectorAll('input[type="radio"]')
 for(i=0;i<testResultLocalObject.length;i++){
-    var buttons = document.querySelectorAll('input[type="radio"]')
     for(var j=0;j<buttons.length;j++){
         if(buttons[j].name == testResultLocalObject[i].QuestionId && buttons[j].value == testResultLocalObject[i].AnswerId){
             buttons[j].checked=true;
@@ -9,20 +9,20 @@ for(i=0;i<testResultLocalObject.length;i++){
 }
 
 if (confirm('Bạn muốn tải file đáp án không?')) {
-    ques = document.getElementsByClassName("ImportWord-Normal");
-    _ques = [];
+    ques = document.getElementsByClassName("col-11 question-box-title");
+    answer = document.getElementsByClassName("col-10");
 
-    for(i=0;i<ques.length;i++)
-        if(ques[i].innerText.replace(/\s/g, '').length)
-            _ques.push(ques[i]);
-
-    data=""
-    for(i=0;i<_ques.length;i++)    
-        if(i%5==0)
-            data += (Math.ceil(i/5)+1).toString() + ". " + _ques[i].innerText+"\n";
-        else if(buttons[Math.floor(i/5)*4+i%5-1].checked)
-            data += "[x] " + _ques[i].innerText + "\n" ;
-        else data += "[ ] " + _ques[i].innerText + "\n";
+    data = ""
+    for(i=0;i<buttons.length/4;i++){
+        data += i.toString() + ". " + ques[i].innerText + "\n";
+        for(j=0;j<4;j++){
+            if(buttons[i*4+j].checked)
+                data += "[x] ";
+            else data += "[ ] ";
+            data += answer[i*4+j+1].innerText + "\n";
+        }
+        data += "\n";
+    }
 
     var element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(data));
