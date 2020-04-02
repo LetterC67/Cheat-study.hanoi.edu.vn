@@ -11,8 +11,8 @@
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
 ### 0. Tính năng mới!
-   - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "showAnswerKey.js", các đáp án đúng sẽ được chọn (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_) và sẽ hỏi bạn có muốn tải phần đáp án xuống không. Nếu bạn chọn có, hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn! 
-       
+   - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn! 
+   - File "showAnswerKey.js" đã không còn nữa vì bạn chỉ cần bấm F5 sau khi chạy các code lấy đáp án là đáp án được chọn!
 ### 1. Cách lấy hàm đáp án của một bài bất kì (Không đọc phần này nếu quá lười hoặc không muốn đóng góp cho cộng đồng!!!)
 #### *_- Cách 1 (Dành cho những bạn chăm chỉ làm bài, nên đây là cách được khuyến nghị!)_* 
    
@@ -60,7 +60,7 @@
     localStorage.setItem("wrong",document.getElementById("lblFalseAnser").innerText);
     ```
     - B3.8: Lặp lại B3.6 cho đến lần thứ 4 
-    - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác hoặc có thể gửi về email để up lên đây, các đáp án được tick đúng hoàn toàn (theo như hệ thống thôi!) cho các bạn tham khảo! Bạn có thể chạy code "showAnswerKey.js" để tải dáp án về!
+    - B3.9: Ở lần chạy thứ 4 (aka cuối cùng), copy toàn bộ phần cheat code, dùng cho các bạn khác hoặc có thể gửi về email để up lên đây, các đáp án được tick đúng hoàn toàn (theo như hệ thống thôi!) cho các bạn tham khảo! Bạn có thể chạy code "downloadAnswerKey.js" để tải dáp án về!
     
     __*:tv: :tv: Video hướng dẫn: https://drive.google.com/file/d/1fxACUJK5tv3L6m-eY56s1mlthyBldjah/preview*__
    
@@ -70,10 +70,10 @@
   - B2: Bấm F12 hoặc Ctrl + Shift + I để bật Chrome DevTools
   - B3: Paste phần hàm vào Console (hàm tự tạo hoặc lấy trong thư mục 'cheat code'), bấm Enter
 
-_**- Chú ý!!: Khi sử dụng code thì hệ thống sẽ nộp bài luôn. Trước khi chạy code thì có thể xóa đoạn "SubmitTestResultClick()" để không cho hệ thống nộp bài luôn. Tiếp tục vào file 'showAnswerKey.js' và copy vào console, bấm Enter, toàn bộ đáp án đúng sẽ được chọn (bạn cũng có thể tải đáp án về!) và nộp bài như bình thường**_
+_**- Chú ý!!: Khi sử dụng code thì hệ thống sẽ nộp bài luôn. Trước khi chạy code thì có thể xóa đoạn "SubmitTestResultClick()" để không cho hệ thống nộp bài luôn. Tiếp theo bấm F5 để refresh lại trang, các đáp án đúng sẽ được chọn! **_
   
 ### 3. FAQ
    - Nếu như một đề chỉ cần chạy "cheatCode_v2.js" một lần là được 10, vậy làm thế nào để lấy đáp án ?
-     + Bạn cần vào để đó và chỉ cần chạy lại "cheatCode_v2.js" một lần. Sau đó chạy "showAnswerKey.js" là đáp án sẽ được hiện ra và bạn có thể tải đáp án xuống!
+     + Bạn cần vào để đó và chỉ cần chạy lại "cheatCode_v2.js" một lần. Sau đó bấm F5 để refresh trang, các đáp án đúng sẽ được chọn
 ## III/ Liên hệ
    - Email: congtytotovietnam@gmail.com
