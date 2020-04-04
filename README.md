@@ -34,7 +34,7 @@
   - B1: Vào 'cheatCode_v2.js', copy phần code ra
   - B2: Vào study.hanoi.edu.vn, vào một đề bất kì, bật Chrome DevTools, vào mục console, paste đoạn code trong file "cheatCode_v2.js" vào
    
-   **_:exclamation: :exclamation: :exclamation: Lưu ý: Ở LẦN ĐÂU TIÊN, trước khi paste đoạn code trong "cheatCode_v2.js", hãy chạy lệnh dưới đây để đảm bảo khả năng thành công:_**
+   **_:exclamation: :exclamation: :exclamation: Lưu ý: Trước khi đến với bước 3, hãy chạy dòng lệnh dưới đây để đảm bảo khả năng thành công!_**
   ```javascript
   ClearStore();
   ```
