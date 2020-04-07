@@ -1,10 +1,17 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: DO WEBSITE ĐÃ CẬP NHẬT NÊN CÁC BẠN KHÔNG THỂ SỬ DỤNG CODE ĐƯỢC NỮA!
 ## N/ Thông báo
-- Đầu tiên mình xin gửi lời cảm ơn các bạn đã tin tưởng và sử dụng code của mình!
-- Qua đợt cập nhật hệ thông vừa rồi của study.hanoi.edu.vn, code của mình đã không còn sử dụng được nữa. Chính vì vậy, mình đã bắt tay vào tìm ra hướng giải quyết, viết ra code mới. Tuy nhiên, trong quá trình đó, mình đã để ý thấy hệ thống đã có nhiểu thay đổi tích cực về giao diện,... và trong đó có cả phần hiện đáp án rất chi tiết, đầy đủ, vô cùng tiện lợi cho các bạn tham khảo do đó code của mình gần như không còn tác dụng mấy.
-- Mình quyết định sẽ tạm thời ngừng lại dự án (vì mình buồn ngủ quá rồi và ngủ dậy còn nhiều việc khác phải làm nữa) và mình vẫn sẽ để code ở đây coi như kỉ niệm một thời học sinh nông nổi :smile: Nếu các bạn có yêu cầu hay có điều gì muốn nói thì hãy gửi vào phần "Issues" hoặc về email của mình. Mình vẫn sẽ tiếp nhận và có thể khởi động lại dự án nếu có yêu cầu (hợp lí)
-+ **FROM _♕RED♚QUEEN♕_  !**
+- **CH 07/04/2020 GMT+7**:
+   + Chỉ vừa một buổi thông báo ngừng hỗ trợ mà mình đã nhận được nhiều thông tin phản hồi từ các bạn. Với một số lí do mà không tiện nói ra mình quyết định sẽ tiếp tục lại dự án. 
+   + Thật sự khi tiếp tục, mình chỉ mong các bạn đừng gian lận nhiều quá. Một vị hiền triết phương Đông đã có câu: “Cần lao vi thiên tủ, năng cán dĩ đắc thực, vô vi thực đb, thực c** thế cho nhanh” - “Ở xã hội này, phải có làm thì mới có ăn, không làm thì có mà ăn đb nhá, ăn c**, thế cho nhanh”. Các bạn mà gian lận nhiều quá sẽ nhận lại hậu quả không mấy tốt đẹp đâu!
+   + Mình sẽ cố gắng hoàn thiện nhanh nhất có thể, các bạn chú ý theo dõi các thông báo để có được cập nhật mới nhất!
+   + **FROM _♕RED♚QUEEN♕_  !**
+   
+- **SA 07/04/2020 GMT+7:**
+   - Đầu tiên mình xin gửi lời cảm ơn các bạn đã tin tưởng và sử dụng code của mình!
+   - Qua đợt cập nhật hệ thông vừa rồi của study.hanoi.edu.vn, code của mình đã không còn sử dụng được nữa. Chính vì vậy, mình đã bắt tay vào tìm ra hướng giải quyết, viết ra code mới. Tuy nhiên, trong quá trình đó, mình đã để ý thấy hệ thống đã có nhiểu thay đổi tích cực về giao diện,... và trong đó có cả phần hiện đáp án rất chi tiết, đầy đủ, vô cùng tiện lợi cho các bạn tham khảo do đó code của mình gần như không còn tác dụng mấy.
+   - Mình quyết định sẽ tạm thời ngừng lại dự án (vì mình buồn ngủ quá rồi và ngủ dậy còn nhiều việc khác phải làm nữa) và mình vẫn sẽ để code ở đây coi như kỉ niệm một thời học sinh nông nổi :smile: Nếu các bạn có yêu cầu hay có điều gì muốn nói thì hãy gửi vào phần "Issues" hoặc về email của mình. Mình vẫn sẽ tiếp nhận và có thể khởi động lại dự án nếu có yêu cầu (hợp lí)
+   + **FROM _♕RED♚QUEEN♕_  !**
 
 ## I/ Giới thiệu
 - Đầu tiên, đây là một sản phẩm nho nhỏ được tạo ra bởi sự rảnh rỗi, một chút lười biến cùng với một ý tưởng đột ngột vào một buổi trưa khá-là-đẹp-trời. Nó được tạo ra với ban đầu mục đích lấy đáp án đúng sau khi làm bài xong (vì hệ thống khá là bất cập khi không hiện đáp án)
