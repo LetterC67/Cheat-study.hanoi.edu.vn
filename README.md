@@ -1,5 +1,5 @@
 # Lấy đáp án cho study.hanoi.edu.vn
-## :warning: CHÚ Ý: DO WEBSITE ĐÃ CẬP NHẬT NÊN CÁC BẠN KHÔNG THỂ SỬ DỤNG CODE ĐƯỢC NỮA!
+## :warning: CHÚ Ý: DO WEBSITE ĐÃ CẬP NHẬT NÊN CÁC BẠN KHÔNG THỂ SỬ DỤNG CODE ĐƯỢC NỮA! ĐANG KHẮC PHỤC, CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT
 ## N/ Thông báo
 - **CH 07/04/2020 GMT+7**:
    + Chỉ vừa một buổi thông báo ngừng hỗ trợ mà mình đã nhận được nhiều thông tin phản hồi từ các bạn. Với một số lí do mà không tiện nói ra mình quyết định sẽ tiếp tục lại dự án. 
