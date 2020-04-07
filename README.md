@@ -1,5 +1,5 @@
 # Lấy đáp án cho study.hanoi.edu.vn
-## :warning: CHÚ Ý: DO WEBSITE ĐÃ CẬP NHẬT NÊN CÁC BẠN KHÔNG THỂ SỬ DỤNG CODE ĐƯỢC NỮA! ĐANG KHẮC PHỤC, CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT
+## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
 - **6:03 CH 07/04/2020 GMT+7**:
    + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới để rõ hơn cách làm
