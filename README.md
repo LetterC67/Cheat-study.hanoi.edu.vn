@@ -1,4 +1,5 @@
 # Lấy đáp án cho study.hanoi.edu.vn
+## :warning: CHÚ Ý: DO WEBSITE ĐÃ CẬP NHẬT NÊN CÁC BẠN KHÔNG THỂ SỬ DỤNG CODE ĐƯỢC NỮA, MÌNH ĐANG CỐ GẮNG TÌM CÁCH KHẮC PHỤC!
 ## I/ Giới thiệu
 - Đầu tiên, đây là một sản phẩm nho nhỏ được tạo ra bởi sự rảnh rỗi, một chút lười biến cùng với một ý tưởng đột ngột vào một buổi trưa khá-là-đẹp-trời. Nó được tạo ra với ban đầu mục đích lấy đáp án đúng sau khi làm bài xong (vì hệ thống khá là bất cập khi không hiện đáp án)
 - Bạn có thể lấy được toàn bộ đáp án của một đề bất kì trên trang web làm bài trực tuyến study.hanoi.edu.vn hoặc đơn giản chỉ là được rất nhiều con 10
