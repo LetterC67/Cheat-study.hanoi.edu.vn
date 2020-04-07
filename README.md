@@ -2,7 +2,7 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
 - **6:03 CH 07/04/2020 GMT+7**:
-   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới để rõ hơn cách làm
+   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới phần II/-1 để rõ hơn cách làm!
    + Như mình dã nói, mong các bạn không sử dụng vào mục đích xấu quá nhiểu. Có nhiều bạn do quá nhiều bài, deadline chồng chất thì còn được nhé! Nếu không mình sẽ bắt buộc phải gỡ đi!
    + Do mình làm trong thời gian khá ngắn, không tránh khỏi các sai sót, các bạn có thể vào phần "Issues" hoặc gửi về Email để phản hổi!
    + **FROM _♕RED♚QUEEN♕_  !**
@@ -31,9 +31,9 @@
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
 ### -1, Hướng dẫn cho bản cập nhật mới:
-      - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
-      - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
-      - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
+   - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
+   - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
+   - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
       
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
