@@ -3,7 +3,7 @@
 ## N/ Thông báo
 - Đầu tiên mình xin gửi lời cảm ơn các bạn đã tin tưởng và sử dụng code của mình!
 - Qua đợt cập nhật hệ thông vừa rồi của study.hanoi.edu.vn, code của mình đã không còn sử dụng được nữa. Chính vì vậy, mình đã bắt tay vào tìm ra hướng giải quyết, viết ra code mới. Tuy nhiên, trong quá trình đó, mình đã để ý thấy hệ thống đã có nhiểu thay đổi tích cực về giao diện,... và trong đó có cả phần hiện đáp án rất chi tiết, đầy đủ, vô cùng tiện lợi cho các bạn tham khảo do đó code của mình gần như không còn tác dụng mấy.
-- Mình quyết định sẽ tạm thời ngừng lại dự án (vì mình buồn ngủ quá rồi) và mình vẫn sẽ để code ở đây coi như kỉ niệm một thời học sinh nông nổi :smile: Nếu các bạn có yêu cầu hay có điều gì muốn nói thì hãy gửi vào phần "Issues" hoặc về email của mình. Mình vẫn sẽ tiếp nhận và có thể khởi động lại dự án nếu có yêu cầu
+- Mình quyết định sẽ tạm thời ngừng lại dự án (vì mình buồn ngủ quá rồi và ngủ dậy còn nhiều việc khác phải làm nữa) và mình vẫn sẽ để code ở đây coi như kỉ niệm một thời học sinh nông nổi :smile: Nếu các bạn có yêu cầu hay có điều gì muốn nói thì hãy gửi vào phần "Issues" hoặc về email của mình. Mình vẫn sẽ tiếp nhận và có thể khởi động lại dự án nếu có yêu cầu
 ## I/ Giới thiệu
 - Đầu tiên, đây là một sản phẩm nho nhỏ được tạo ra bởi sự rảnh rỗi, một chút lười biến cùng với một ý tưởng đột ngột vào một buổi trưa khá-là-đẹp-trời. Nó được tạo ra với ban đầu mục đích lấy đáp án đúng sau khi làm bài xong (vì hệ thống khá là bất cập khi không hiện đáp án)
 - Bạn có thể lấy được toàn bộ đáp án của một đề bất kì trên trang web làm bài trực tuyến study.hanoi.edu.vn hoặc đơn giản chỉ là được rất nhiều con 10
