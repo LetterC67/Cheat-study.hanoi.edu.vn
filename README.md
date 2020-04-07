@@ -2,7 +2,7 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
 - **6:03 CH 07/04/2020 GMT+7**:
-   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới phần II/-1 để rõ hơn cách làm!
+   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới phần II/-1 để rõ hơn cách làm! 
    + Như mình dã nói, mong các bạn không sử dụng vào mục đích xấu quá nhiểu. Có nhiều bạn do quá nhiều bài, deadline chồng chất thì còn được nhé! Nếu không mình sẽ bắt buộc phải gỡ đi!
    + Do mình làm trong thời gian khá ngắn, không tránh khỏi các sai sót, các bạn có thể vào phần "Issues" hoặc gửi về Email để phản hổi!
    + **FROM _♕RED♚QUEEN♕_  !**
@@ -31,6 +31,7 @@
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
 ### -1, Hướng dẫn cho bản cập nhật mới:
+#### Việc này đơn giản chỉ là lấy đáp án ở phần chi tiết bài làm rồi lại tự động điền vào bài của bạn thôi! Nó sẽ giúp các bạn có deadline khó nhằn giải quyết công việc nhanh hơn một chút!
    - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
    - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
    - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
