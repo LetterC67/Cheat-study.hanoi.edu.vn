@@ -35,7 +35,7 @@
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
-### -1, Hướng dẫn cho bản cập nhật mới:
+### -1, Hướng dẫn cho bản cập nhật mới:  :arrow_left: :exclamation:
 #### Việc này đơn giản chỉ là lấy đáp án ở phần chi tiết bài làm rồi lại tự động điền vào bài của bạn thôi! Nó sẽ giúp các bạn có deadline khó nhằn giải quyết công việc nhanh hơn một chút!
    - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
    - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
