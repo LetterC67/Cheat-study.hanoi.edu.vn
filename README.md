@@ -1,6 +1,11 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
+- **4:34 CH 08/04/2020 GMT+7**:
+   + Hôm nay mình đã tìm ra cách làm mới nhanh hơn, mình sẽ cập nhật trong thời gian sớm nhất!
+   + Mình cũng nhận được thông báo về một bug nho nhỏ của getCorrectAnswers.js và đã sửa lại rồi!
+   + **FROM _♕RED♚QUEEN♕_  !**
+   
 - **11:36 SA 08/04/2020 GMT+7**:
    + Đúng như dự đoán của mình, code mới đã có một số bug và đã được các bạn phản hồi về. Một số đề có các đáp án của các câu giống nhau sẽ vướng phải lỗi này.
    + Mình đã sửa xong lỗi này và có thể chạy bình thường cho các đề có đáp án giống nhau! Mình không chắc chắn với các bạn rằng còn có bug nào nữa không nên nếu gặp các bạn hãy vào phần "Issues" hoặc gửi về Email để mình có thể sửa được trong thời gian sớm nhất nhé!
