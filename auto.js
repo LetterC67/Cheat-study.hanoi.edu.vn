@@ -8,8 +8,10 @@ for(i=0;i<x.length;i++){
         if(ques == ans[j][0])
             break;
     ansList = x[i].querySelectorAll('input[type="radio"]')
-	for(k=0;k<4;k++){
-        if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText)
+    for(k=0;k<4;k++){
+        if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
+            ansList[k].onclick()
+        else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText)
             ansList[k].onclick()
     }
 }
