@@ -1,8 +1,13 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
+- **11:36 SA 08/04/2020 GMT+7**:
+   + Đúng như dự đoán của mình, code mới đã có một số bug và đã được các bạn phản hồi về. Một số đề có các đáp án của các câu giống nhau sẽ vướng phải lỗi này.
+   + Mình đã sửa xong lỗi này và có thể chạy bình thường cho các đề có đáp án giống nhau! Mình không chắc chắn với các bạn rằng còn có bug nào nữa không nên nếu gặp các bạn hãy vào phần "Issues" hoặc gửi về Email để mình có thể sửa được trong thời gian sớm nhất nhé!
+   + **FROM _♕RED♚QUEEN♕_  !**
+
 - **6:03 CH 07/04/2020 GMT+7**:
-   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dãn ở dưới phần II/-1 để rõ hơn cách làm! 
+   + Tin vui cho các bạn. Sau một lúc ngồi nghiên cứu thì mình đã viết được code mới. Các bạn có thể đọc hướng dẫn ở dưới phần II/-1 để rõ hơn cách làm! 
    + Như mình dã nói, mong các bạn không sử dụng vào mục đích xấu quá nhiểu. Có nhiều bạn do quá nhiều bài, deadline chồng chất thì còn được nhé! Nếu không mình sẽ bắt buộc phải gỡ đi!
    + Do mình làm trong thời gian khá ngắn, không tránh khỏi các sai sót, các bạn có thể vào phần "Issues" hoặc gửi về Email để phản hổi!
    + **FROM _♕RED♚QUEEN♕_  !**
