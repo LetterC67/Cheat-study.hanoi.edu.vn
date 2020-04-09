@@ -50,7 +50,7 @@ for(i=0;i<x.length;i++){
     }
     var j=0;
     for(j=0;j<ans.length;j++){
-        if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
+        if(ques.substr(0,20) == ans[j][0].substr(0,20) && ansList2.includes(ans[j][1]))
             break;
     }
     console.log(j)
