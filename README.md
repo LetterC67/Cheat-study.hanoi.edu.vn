@@ -1,6 +1,10 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
-## N/ Thông báo
+## N/ Thông báo :exclamation:
+- **3:27 CH 09/04/2020 GMT+7**:
+   + Mình đã cập nhật lên 2440 đề cho code mới rồi nhé. Nếu có thời gian mình sẽ lấy thêm
+   + **FROM _♕RED♚QUEEN♕_  !**
+
 - **2:26 CH 09/04/2020 GMT+7**:
    + Đã đến lúc công bố tin mới rồi hehe!
    + Mình đã làm xong code "auto_v2.js", có thể làm các mã đề có trong file "examID" trong 1 lần. Các bạn xem hướng dẫn ở phần II/-1
@@ -56,7 +60,7 @@
      - B1: Vào một đề bất kì, lấy phần mã đề
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
      - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
-     - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 667 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
+     - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 2440 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
        
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
