@@ -15,10 +15,7 @@ $.ajax({
         div.insertAdjacentHTML( 'beforeend', data );      
         x = div.getElementsByClassName("question-box");
         for(i=0;i<x.length;i++){
-             y = x[i].getElementsByClassName("col-11 question-box-title")[0].getElementsByTagName("span")
-            ques = ""
-            for(l=0;l<y.length;l++)
-                ques += y[l].innerText	
+             ques = getText(x[i].getElementsByClassName("col-11 question-box-title")[0].querySelectorAll('span,sub'))
             if(x[i].getElementsByTagName("img").length == 4){
                 if(x[i].getElementsByClassName("text-primary")[0] != null)
                     ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt])
@@ -27,37 +24,37 @@ $.ajax({
                 continue
             }
             if(x[i].getElementsByClassName("text-primary")[0] != null)
-                ans.push([ques,getText(x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.getElementsByTagName("span"))])
+                ans.push([ques,getText(x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.querySelectorAll('span,sub'))])
             else
-                ans.push([ques,getText(x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.getElementsByTagName("span"))])
+                ans.push([ques,getText(x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.querySelectorAll('span,sub'))])
         }
     }
 });
 var buttons = document.querySelectorAll('input[type="radio"]')
 x = document.getElementsByClassName("question-box")
 for(i=0;i<x.length;i++){
-    QUES = x[i].getElementsByClassName("col-11 question-box-title")[0].getElementsByTagName("span");
-    ques = ""
-    for(y=0;y<QUES.length;y++)
-        ques += QUES[y].innerText
+    ques = getText(x[i].getElementsByClassName("col-11 question-box-title")[0].querySelectorAll('span,sub'))
     ansList = x[i].querySelectorAll('input[type="radio"]')
     ansList2 = []
     for(l=0;l<4;l++){
         if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
             ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
         else
-            ansList2.push(getText(ansList[l].parentNode.nextElementSibling.getElementsByTagName("span")))
+            ansList2.push(getText(ansList[l].parentNode.nextElementSibling.querySelectorAll('span,sub')))
     }
     var j=0;
     for(j=0;j<ans.length;j++){
-        if(ques.substr(0,20) == ans[j][0].substr(0,20) && ansList2.includes(ans[j][1]))
+        if(ques.substr(0,40) == ans[j][0].substr(0,40) && ansList2.includes(ans[j][1]))
             break;
     }
-    console.log(j)
+    if(j==x.length){
+        console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
+        continue
+    }
     for(k=0;k<4;k++){
         if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
             ansList[k].onclick()
-        else if(ans[j][1] == getText(ansList[k].parentNode.nextElementSibling.getElementsByTagName("span")))
+        else if(ans[j][1] == getText(ansList[k].parentNode.nextElementSibling.querySelectorAll('span,sub')))
             ansList[k].onclick()
     }
 }
