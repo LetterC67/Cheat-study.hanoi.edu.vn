@@ -1,6 +1,12 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo
+- **2:26 CH 09/04/2020 GMT+7**:
+   + Đã đến lúc công bố tin mới rồi hehe!
+   + Mình đã làm xong code "auto_v2.js", có thể làm các mã đề có trong file "examID" trong 1 lần. Các bạn xem hướng dẫn ở phần II/-1
+   + Đây chỉ là một bản BETA vá chẳng vá chịt nên có lỗi gì thì các bạn phản hồi lại cho mình nhé!
+   + **FROM _♕RED♚QUEEN♕_  !**
+
 - **4:34 CH 08/04/2020 GMT+7**:
    + Hôm nay mình đã tìm ra cách làm mới nhanh hơn, mình sẽ cập nhật trong thời gian sớm nhất!
    + Mình cũng nhận được thông báo về một bug nho nhỏ của getCorrectAnswers.js và đã sửa lại rồi!
@@ -42,10 +48,16 @@
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
 ### -1, Hướng dẫn cho bản cập nhật mới:  :arrow_left: :exclamation:
 #### Việc này đơn giản chỉ là lấy đáp án ở phần chi tiết bài làm rồi lại tự động điền vào bài của bạn thôi! Nó sẽ giúp các bạn có deadline khó nhằn giải quyết công việc nhanh hơn một chút!
-   - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
-   - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
-   - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
-      
+   - **Cách 1: (cách cũ chạy 2 lần)**
+     - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
+     - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
+     - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
+   - **Cách 2: (MỚI !!!)**
+     - B1: Vào một đề bất kì, lấy phần mã đề
+     - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
+     - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
+     - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 667 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
+       
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
    - File "showAnswerKey.js" đã không còn nữa vì bạn chỉ cần bấm F5 sau khi chạy các code lấy đáp án là đáp án được chọn!
