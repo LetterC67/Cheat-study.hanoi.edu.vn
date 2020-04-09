@@ -55,7 +55,7 @@
    - **Cách 1: (cách cũ chạy 2 lần)**
      - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
      - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
-     - B3: Vào lại đề đó, lấy code "auto.js" để nhập vào console như B2. Xong rồi bấm nút "Nộp bài"
+     - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
    - **Cách 2: (MỚI !!!)**
      - B1: Vào một đề bất kì, lấy phần mã đề
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
