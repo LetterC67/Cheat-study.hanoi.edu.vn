@@ -9,7 +9,7 @@ $.ajax({
         div.insertAdjacentHTML( 'beforeend', data );      
         x = div.getElementsByClassName("question-box");
         for(i=0;i<x.length;i++){
-             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| )/gm, "")
+             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\$)/gm, "")
             if(x[i].getElementsByTagName("img").length == 4){
                 if(x[i].getElementsByClassName("text-primary")[0] != null)
                     ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt])
@@ -18,9 +18,9 @@ $.ajax({
                 continue
             }
             if(x[i].getElementsByClassName("text-primary")[0] != null)
-                ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, "")])
+                ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$)/gm, "")])
             else
-                ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, "")])
+                ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$)/gm, "")])
         }
     }
 });
