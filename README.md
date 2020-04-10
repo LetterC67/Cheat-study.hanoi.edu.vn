@@ -1,9 +1,9 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
-- **9:14 CH 09/04/2020 GMT+7**:
-   + Mình đã sửa một số lỗi nhỏ của các code và hiện nay đã tìm ra cách để chạy code cho các đề toán! (Chỉ cho cách 1, chạy 2 lần! Cách 2 mình sẽ cập nhật sau)
-   + Các bạn đọc phần hướng dẫn cho đề toán ở phần II/-1 nhé!
+- **9:41 CH 09/04/2020 GMT+7**:
+   + Mình đã sửa một số lỗi nhỏ của các code và hiện nay đã tìm ra cách để chạy code cho các đề toán! (Áp dụng cho cả 2 cách)
+   + Đề toán có thêm một số bước nho nhỏ. Các bạn đọc phần hướng dẫn cho đề toán ở phần II/-1 nhé!
    + **FROM _♕RED♚QUEEN♕_  !**   
 
 - **4:12 CH 09/04/2020 GMT+7**:
@@ -75,14 +75,16 @@
      - **Với các đề toán sẽ hơi khác một chút** :warning:
        - B1: Vào một đề toán bất kì, cũng chọn ít nhất 1 câu và nộp bài
        - B2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
-       - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. 
+       - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
        - B4; Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
    - **Cách 2: (Cho code "auto_v2.js")**
      - B1: Vào một đề bất kì, lấy phần mã đề
+       - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
      - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
      - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 2440 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
-       
+   - **Khi thực hiện các bước (*) rồi thì các lần sau các công thức toán sẽ tự động chuyển về như vậy. Nếu muốn trở lại như cũ thì chuột phải vào công thức, Math Settings > Math Renderer > SVG hoặc là các tùy chọn khác không phải "Plain Source". Quá trình sẽ mất khoảng vài giây đến chục giây!**
+
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
    - File "showAnswerKey.js" đã không còn nữa vì bạn chỉ cần bấm F5 sau khi chạy các code lấy đáp án là đáp án được chọn!
