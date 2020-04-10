@@ -1,6 +1,11 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
+- **9:14 CH 09/04/2020 GMT+7**:
+   + Mình đã sửa một số lỗi nhỏ của các code và hiện nay đã tìm ra cách để chạy code cho các đề toán! (Chỉ cho cách 1, chạy 2 lần! Cách 2 mình sẽ cập nhật sau)
+   + Các bạn đọc phần hướng dẫn cho đề toán ở phần II/-1 nhé!
+   + **FROM _♕RED♚QUEEN♕_  !**   
+
 - **4:12 CH 09/04/2020 GMT+7**:
    + Hiện nay cả 2 code của mình đều không sử dụng được với đề toán vì đề toán có cấu trúc khác!
    + Hiện mình đang tối ưu các code cũ trước để làm được với các để khác ngoài môn toán nên các bạn cần môn toán cố gắng đợi nhé! Nhất định mình sẽ đăng trong thời gian sớm nhất!
@@ -66,7 +71,13 @@
      - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
      - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
      - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
-   - **Cách 2: (MỚI !!!)**
+      
+     - **Với các đề toán sẽ hơi khác một chút** :warning:
+       - B1: Vào một đề toán bất kì, cũng chọn ít nhất 1 câu và nộp bài
+       - B2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
+       - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. 
+       - B4; Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
+   - **Cách 2: (Cho code "auto_v2.js")**
      - B1: Vào một đề bất kì, lấy phần mã đề
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
      - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
