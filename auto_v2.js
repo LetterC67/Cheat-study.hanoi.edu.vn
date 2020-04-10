@@ -1,10 +1,4 @@
 var ans = []
-function getText(obj){
-    text = ""
-    for(p=0;p<obj.length;p++)
-        text += obj[p].innerText
-    return text
-}
 $.ajax({
     type: "GET",
     cache: false,
@@ -15,7 +9,7 @@ $.ajax({
         div.insertAdjacentHTML( 'beforeend', data );      
         x = div.getElementsByClassName("question-box");
         for(i=0;i<x.length;i++){
-             ques = getText(x[i].getElementsByClassName("col-11 question-box-title")[0].querySelectorAll('span,sub'))
+             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| )/gm, "")
             if(x[i].getElementsByTagName("img").length == 4){
                 if(x[i].getElementsByClassName("text-primary")[0] != null)
                     ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt])
@@ -24,23 +18,23 @@ $.ajax({
                 continue
             }
             if(x[i].getElementsByClassName("text-primary")[0] != null)
-                ans.push([ques,getText(x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.querySelectorAll('span,sub'))])
+                ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, "")])
             else
-                ans.push([ques,getText(x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.querySelectorAll('span,sub'))])
+                ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, "")])
         }
     }
 });
 var buttons = document.querySelectorAll('input[type="radio"]')
 x = document.getElementsByClassName("question-box")
 for(i=0;i<x.length;i++){
-    ques = getText(x[i].getElementsByClassName("col-11 question-box-title")[0].querySelectorAll('span,sub'))
+    ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| )/gm, "")
     ansList = x[i].querySelectorAll('input[type="radio"]')
     ansList2 = []
     for(l=0;l<4;l++){
         if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
             ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
         else
-            ansList2.push(getText(ansList[l].parentNode.nextElementSibling.querySelectorAll('span,sub')))
+            ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, ""))
     }
     var j=0;
     for(j=0;j<ans.length;j++){
@@ -54,7 +48,7 @@ for(i=0;i<x.length;i++){
     for(k=0;k<4;k++){
         if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
             ansList[k].onclick()
-        else if(ans[j][1] == getText(ansList[k].parentNode.nextElementSibling.querySelectorAll('span,sub')))
+        else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, ""))
             ansList[k].onclick()
     }
 }
