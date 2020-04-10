@@ -1,6 +1,11 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
+- **4:12 CH 09/04/2020 GMT+7**:
+   + Hiện nay cả 2 code của mình đều không sử dụng được với đề toán vì đề toán có cấu trúc khác!
+   + Hiện mình đang tối ưu các code cũ trước để làm được với các để khác ngoài môn toán nên các bạn cần môn toán cố gắng đợi nhé! Nhất định mình sẽ đăng trong thời gian sớm nhất!
+   + **FROM _♕RED♚QUEEN♕_  !**   
+   
 - **8:40 CH 09/04/2020 GMT+7**:
    + Mình đã nhận được khá nhiều phản hồi về một số lỗi của "auto_v2.js" và mình đã sửa lại. Hiện tại, nếu có câu nào bị lỗi thì nó sẽ thông báo và bạn phải tự làm lại. Mình sẽ cố gắng khắc phục!
    + Sẽ chỉ có một số ít đề bị lỗi vài câu thôi. Nếu mà đề không có trong danh sách "examID" hoặc lỗi nhiều câu quá thì bạn có thể sử dụng cách cũ (II/-1) 
