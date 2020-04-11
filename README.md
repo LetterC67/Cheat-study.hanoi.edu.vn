@@ -1,6 +1,12 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
+- **9:49 CH 11/04/2020 GMT+7**:
+   + Một tin khá vui với các bạn. Chắc chắn các bạn sẽ cực kì mong chờ cho bản cập nhật mới này :smile: !!!
+   + Hôm nay mình đã tạo ra một code có thể auto chạy mỗi khi bạn vào trang làm bài luôn! Chỉ có các đề trong danh sách examID thôi nhé! Mình sắp cập nhật một danh sách mới siêu dài rồi!
+   + Hướng dẫn thì các bạn đọc ở phần II/-2 nhé!!
+   + **FROM _♕RED♚QUEEN♕_  !**  
+
 - **6:29 CH 11/04/2020 GMT+7**:
    + Mình đã cập nhật lại các mã đề cho cách 2 do các dữ liệu cũ bị xóa sau lần bảo trì hệ thống. Tuy không nhiều bằng lần trước nhưng mình sẽ cập nhật dần dần nhé!
    + **FROM _♕RED♚QUEEN♕_  !**  
@@ -69,6 +75,21 @@
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
+### -2, Cách thiết lập auto làm bài:
+   - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
+   - B1: Vào trang này và cài extension Moesif Orign & CORS Changer: https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc
+   - B2: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
+   - B3: Ở góc trên cùng bên phải, bấm vào extension Moesif Orign & CORS Changer và chọn "Switch On". 
+      
+   - B4: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "fullyAutomaticCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
+   
+      ![](img/h.PNG)
+     - Tampermonkey được khoanh đỏ, Moesif Orign & CORS Changer khoanh màu vàng!
+   - B5: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo cách 1 ở phần II/-1.
+   - **Xin lưu ý: Bất cứ khi nào bạn vào một thì code sẽ tự chạy như ở B5. Để tắt đi thì bạn bấm vào biểu tượng của Tampermonkey và bấm vào "Enabled". Sau đó nó sẽ chuyển thành "Disabled"**
+   - **Các bạn cũng nên vào kiểm tra repo này thường xuyên để lấy code mới thay code cũ vì mình sẽ cập nhật các phiên bản mới cùng các chức năng cũng như vá lỗi! Có thể sau này mình sẽ cập nhật code để tự động sử dụng code mới luôn!**
+   - **Có gì chưa rõ các bạn vào phần "Issues" hoặc gửi về email cho mình nhé!**
+
 ### -1, Hướng dẫn cho bản cập nhật mới:  :arrow_left: :exclamation:
 #### Việc này đơn giản chỉ là lấy đáp án ở phần chi tiết bài làm rồi lại tự động điền vào bài của bạn thôi! Nó sẽ giúp các bạn có deadline khó nhằn giải quyết công việc nhanh hơn một chút!
    - **Cách 1: (cách cũ chạy 2 lần)**
