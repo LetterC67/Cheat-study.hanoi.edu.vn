@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕)
-// @namespace    http://tampermonkey.net/
-// @version      Auto 1.0
-// @description  auto :D
-// @author       C67 (♕RED♚QUEEN♕)
-// @match        http://study.hanoi.edu.vn/lam-bai/*
-// @grant        none
-// ==/UserScript==
-
 (function() {
     console.log("Auto study.hanoi.edu.vn by C67 ver 1.0.1")
     var t = document.getElementsByClassName("col-12")[1];
@@ -28,7 +18,7 @@
             bID = temp[1];
     }
     if(!bID)
-        alert("Auto study.hanoi.edu.vn by C67 1.0.1\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
+        alert("Auto study.hanoi.edu.vn by C67 1.0\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
     else{
         var ans = [];
         $.ajax({
@@ -77,7 +67,7 @@
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
                 continue
             }
-            for(k=0;k<4;k++){
+            for(k=0;k<ansList.length;k++){
                 if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
                     ansList[k].onclick()
                 else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
@@ -85,5 +75,5 @@
             }
         }
     }
-    alert("Auto study.hanoi.edu.vn by C67 1.0.1 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
+    alert("Auto study.hanoi.edu.vn by C67 1.0 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
 })();
