@@ -1,9 +1,8 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
-- **5:49 CH 11/04/2020 GMT+7**:
-   + Sau khi hệ thống bảo trì hôm nay thì cách 2 (làm 1 lần) tạm thòi không dùng được nữa do các dữ liệu cũ không còn!
-   + Mình sẽ cập nhật thêm dự liệu mới trong thời gian sớm nhất!
+- **6:29 CH 11/04/2020 GMT+7**:
+   + Mình đã cập nhật lại các mã đề cho cách 2 do các dữ liệu cũ bị xóa sau lần bảo trì hệ thống. Tuy không nhiều bằng lần trước nhưng mình sẽ cập nhật dần dần nhé!
    + **FROM _♕RED♚QUEEN♕_  !**  
    
 - **9:41 CH 09/04/2020 GMT+7**:
