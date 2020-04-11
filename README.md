@@ -82,7 +82,7 @@
        - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
      - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
-     - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 2440 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
+     - _Mình sẽ cố gắng cập nhật thêm các mã đề, ở đó có tổng cộng 3928 đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
    - **Khi thực hiện các bước (*) rồi thì các lần sau các công thức toán sẽ tự động chuyển về như vậy. Nếu muốn trở lại như cũ thì chuột phải vào công thức, Math Settings > Math Renderer > SVG hoặc là các tùy chọn khác không phải "Plain Source". Quá trình sẽ mất khoảng vài giây đến chục giây!**
 
 ### ~~0. Tính năng mới!~~
