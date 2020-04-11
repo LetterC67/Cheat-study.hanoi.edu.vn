@@ -1,6 +1,11 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
+- **5:49 CH 11/04/2020 GMT+7**:
+   + Sau khi hệ thống bảo trì hôm nay thì cách 2 (làm 1 lần) tạm thòi không dùng được nữa do các dữ liệu cũ không còn!
+   + Mình sẽ cập nhật thêm dự liệu mới trong thời gian sớm nhất!
+   + **FROM _♕RED♚QUEEN♕_  !**  
+   
 - **9:41 CH 09/04/2020 GMT+7**:
    + Mình đã sửa một số lỗi nhỏ của các code và hiện nay đã tìm ra cách để chạy code cho các đề toán! (Áp dụng cho cả 2 cách)
    + Đề toán có thêm một số bước nho nhỏ. Các bạn đọc phần hướng dẫn cho đề toán ở phần II/-1 nhé!
