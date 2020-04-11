@@ -9,7 +9,7 @@ for(i=0;i<x.length;i++){
         if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
             ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
         else
-            ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| )/gm, ""))
+            ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
     }
     var j=0;
     for(j=0;j<ans.length;j++){
@@ -24,7 +24,7 @@ for(i=0;i<x.length;i++){
     for(k=0;k<4;k++){
         if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
             ansList[k].onclick()
-        else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\$)/gm, ""))
+        else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, ""))
             ansList[k].onclick()
     }
 }
