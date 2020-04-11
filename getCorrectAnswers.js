@@ -10,8 +10,8 @@ for(i=0;i<x.length;i++){
         continue
     }
     if(x[i].getElementsByClassName("text-primary")[0] != null)
-        ans.push([ques[i].innerText.replace(/(\n| |\$)/gm, ""),x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$)/gm, "")])
+        ans.push([ques[i].innerText.replace(/(\n| |\$|\t)/gm, ""),x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
     else
-        ans.push([ques[i].innerText.replace(/(\n| |\$)/gm, ""),x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$)/gm, "")])
+        ans.push([ques[i].innerText.replace(/(\n| |\$|\t)/gm, ""),x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
 }
 localStorage.setItem("ans",JSON.stringify(ans))
