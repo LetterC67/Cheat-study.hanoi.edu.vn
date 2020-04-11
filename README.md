@@ -70,6 +70,7 @@
    - **Cách 1: (cách cũ chạy 2 lần)**
      - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
      - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
+       - Lưu ý nhé: Nếu đề đó bạn đã làm một lần rồi (sau thời gian cập nhật) thì có thể vào trang kết quả của đề đó làm lại B2 nhé!
      - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
       
      - **Với các đề toán sẽ hơi khác một chút** :warning:
@@ -77,7 +78,7 @@
        - B2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
        - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
        - B4; Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
-   - **Cách 2: (Cho code "auto_v2.js")**
+   - **Cách 2: (Cho code "auto_v2.js", chi cần chạy 1 lần là xong)**
      - B1: Vào một đề bất kì, lấy phần mã đề
        - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
      - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
