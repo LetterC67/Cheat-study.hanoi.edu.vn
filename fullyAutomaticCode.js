@@ -83,6 +83,7 @@
             }
             catch(err){
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
+                console.log("hello" + err.message)
                 continue
             }
         }
