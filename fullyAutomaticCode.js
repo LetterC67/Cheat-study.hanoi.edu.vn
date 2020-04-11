@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 (function() {
-    console.log("Auto study.hanoi.edu.vn by C67 ver 1.0")
+    console.log("Auto study.hanoi.edu.vn by C67 ver 1.0.1")
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
     var data = $.ajax({
@@ -28,7 +28,7 @@
             bID = temp[1];
     }
     if(!bID)
-        alert("Auto study.hanoi.edu.vn by C67 1.0\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
+        alert("Auto study.hanoi.edu.vn by C67 1.0.1\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
     else{
         var ans = [];
         $.ajax({
@@ -62,7 +62,7 @@
             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\t)/gm, "")
             ansList = x[i].querySelectorAll('input[type="radio"]')
             ansList2 = []
-            for(l=0;l<4;l++){
+            for(l=0;l<ansList.length;l++){
                 if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
                     ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
                 else
@@ -73,7 +73,7 @@
                 if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
                     break;
             }
-           if(ans[j][1] == null){
+            if(ans[j][1] == null){
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
                 continue
             }
@@ -85,5 +85,5 @@
             }
         }
     }
-    alert("Auto study.hanoi.edu.vn by C67 1.0 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
+    alert("Auto study.hanoi.edu.vn by C67 1.0.1 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
 })();
