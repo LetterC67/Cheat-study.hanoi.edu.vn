@@ -81,13 +81,13 @@
    - B2: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
    - B3: Ở góc trên cùng bên phải, bấm vào extension Moesif Orign & CORS Changer và chọn "Switch On". 
       
-   - B4: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "fullyAutomaticCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
+   - B4: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "getAutoCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
    
       ![](img/h.PNG)
      - Tampermonkey được khoanh đỏ, Moesif Orign & CORS Changer khoanh màu vàng!
    - B5: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo cách 1 ở phần II/-1.
    - **Xin lưu ý: Bất cứ khi nào bạn vào một thì code sẽ tự chạy như ở B5. Để tắt đi thì bạn bấm vào biểu tượng của Tampermonkey và bấm vào "Enabled". Sau đó nó sẽ chuyển thành "Disabled"**
-   - **Các bạn cũng nên vào kiểm tra repo này thường xuyên để lấy code mới thay code cũ vì mình sẽ cập nhật các phiên bản mới cùng các chức năng cũng như vá lỗi! Có thể sau này mình sẽ cập nhật code để tự động sử dụng code mới luôn!**
+   - **Bạn có thể vào Console để xem code chạy hay có vấn đề gì thì code sẽ in ra ở đó!**
    - **Có gì chưa rõ các bạn vào phần "Issues" hoặc gửi về email cho mình nhé!**
 
 ### -1, Hướng dẫn cho bản cập nhật mới:  :arrow_left: :exclamation:
