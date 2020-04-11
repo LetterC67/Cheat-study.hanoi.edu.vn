@@ -73,18 +73,15 @@
                 if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
                     break;
             }
-            try{
-                for(k=0;k<4;k++){
-                    if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
-                        ansList[k].onclick()
-                    else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
-                        ansList[k].onclick()
-                }
-            }
-            catch(err){
+           if(ans[j][1] == null){
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
-                console.log("hello" + err.message)
                 continue
+            }
+            for(k=0;k<4;k++){
+                if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
+                    ansList[k].onclick()
+                else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
+                    ansList[k].onclick()
             }
         }
     }
