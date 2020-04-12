@@ -88,7 +88,7 @@
 ### -3, Tổng quan về phiên bản Auto hiện tại (1.2):
    - Các môn học hỗ trợ: Toàn bộ
    - Chức năng mới: Điểm tối thiểu. Sau khi code chạy, sẽ có một khung hiện lên cho bạn nhập điểm (mặc định là 10). Ví dụ bạn điền là 9 điểm thì code sẽ tự điền đáp án sao cho điểm của bạn là tối thiểu và vẫn lớn hơn 9 điểm.
-   - **Lưu ý: Phải tắt MathJax cho các đề toán (hóa thì có ít). Cách tắt bạn xem ở phần II/-1/Cách 1/Bx.3 (Chỉ cần tắt 1 lần là lần sau tư động tắt)
+   - **Lưu ý: Phải tắt MathJax cho các đề toán (hóa thì có ít). Cách tắt bạn xem ở phần II/-1/Cách 1/Bx.3 (Chỉ cần tắt 1 lần là lần sau tư động tắt)**
    
 ### -2, Cách thiết lập auto làm bài (Khuyến nghị làm theo!)
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
