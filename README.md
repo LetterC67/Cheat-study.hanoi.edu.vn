@@ -2,6 +2,10 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## N/ Thông báo :exclamation:
+- **7:33 CH 12/04/2020 GMT+7**:
+   + Mình bổ sung thêm phần tổng quan về phiên bản Auto mới (II/-3). Các bạn có thể xem hướng dẫn của các chức năng mới của code Auto (II/-2) ở đó!
+   + **FROM _♕RED♚QUEEN♕_  !** 
+
 - **11:11 SA 12/04/2020 GMT+7**:
    + Mình đã fix bug xong và bây giờ code auto (mục II/-2) có thể chạy với mọi đề rồi yeye!
    + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo nhé!
@@ -81,6 +85,11 @@
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
+### -3, Tổng quan về phiên bản Auto hiện tại (1.2):
+   - Các môn học hỗ trợ: Toàn bộ
+   - Chức năng mới: Điểm tối thiểu. Sau khi code chạy, sẽ có một khung hiện lên cho bạn nhập điểm (mặc định là 10). Ví dụ bạn điền là 9 điểm thì code sẽ tự điền đáp án sao cho điểm của bạn là tối thiểu và vẫn lớn hơn 9 điểm.
+   - **Lưu ý: Phải tắt MathJax cho các đề toán (hóa thì có ít). Cách tắt bạn xem ở phần II/-1/Cách 1/Bx.3 (Chỉ cần tắt 1 lần là lần sau tư động tắt)
+   
 ### -2, Cách thiết lập auto làm bài (Khuyến nghị làm theo!)
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
    - B1: Vào trang này và cài extension Moesif Orign & CORS Changer: https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc
@@ -105,11 +114,11 @@
        - Lưu ý nhé: Nếu đề đó bạn đã làm một lần rồi (sau thời gian cập nhật) thì có thể vào trang kết quả của đề đó làm lại B2 nhé!
      - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
       
-     - **Với các đề toán sẽ hơi khác một chút** :warning:
-       - B1: Vào một đề toán bất kì, cũng chọn ít nhất 1 câu và nộp bài
-       - B2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
-       - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
-       - B4; Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
+     - **Với các đề toán sẽ hơi khác một chút. (Cần tắt MathJax)** :warning:
+       - Bx.1: Vào một đề toán bất kì, cũng chọn ít nhất 1 câu và nộp bài
+       - Bx.2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
+       - Bx.3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
+       - Bx.4: Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
    - **Cách 2: (Cho code "auto_v2.js", chi cần chạy 1 lần là xong)**
      - B1: Vào một đề bất kì
        - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
