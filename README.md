@@ -2,7 +2,7 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
 - **11:11 SA 12/04/2020 GMT+7**:
-   + Mình đã fix bug xong và bây giờ code auto có thể chạy với mọi đề rồi yeye!
+   + Mình đã fix bug xong và bây giờ code auto (mục II/-2) có thể chạy với mọi đề rồi yeye!
    + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo nhé!
    + **FROM _♕RED♚QUEEN♕_  !** 
 
