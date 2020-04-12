@@ -2,7 +2,7 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
 - **10:41 SA 12/04/2020 GMT+7**:
-   + Hiện nay, vì lí do nào đo mà code thiết lập tự động không chạy đối với môn toán. Cách khắc phục vô cùng đơn giản, bạn chỉ cần vào file "fullyAutomaticCode.js" copy code và paste vào Console là xong việc luôn! Nếu không được thì bạn chuyển sang cách thủ công nhé!
+   + Hiện nay, vì lí do nào đo mà code thiết lập tự động không chạy đối với môn toán (vẫn chạy ầm ầm với các môn khác). Cách khắc phục vô cùng đơn giản, bạn chỉ cần vào file "fullyAutomaticCode.js" copy code và paste vào Console là xong việc luôn! Nếu không được thì bạn chuyển sang cách thủ công nhé!
    + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo!
    + **FROM _♕RED♚QUEEN♕_  !** 
 
