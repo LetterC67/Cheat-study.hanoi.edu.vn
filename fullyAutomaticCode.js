@@ -47,7 +47,6 @@
                 }
             }
         });
-        console.log("pass 1",ans)
         var buttons = document.querySelectorAll('input[type="radio"]')
         x = document.getElementsByClassName("question-box")
         for(i=0;i<x.length;i++){
@@ -65,17 +64,16 @@
                 if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
                     break;
             }
-            console.log("pass 2",j)
-            if(ans[j][1] == null){
+            try{
+                for(k=0;k<ansList.length;k++){
+                    if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
+                        ansList[k].onclick()
+                    else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
+                        ansList[k].onclick()
+                }
+            }catch{
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
                 continue
-            }
-            console.log("pass 3")
-            for(k=0;k<ansList.length;k++){
-                if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
-                    ansList[k].onclick()
-                else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
-                    ansList[k].onclick()
             }
         }
     }
