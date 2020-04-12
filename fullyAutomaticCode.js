@@ -1,5 +1,5 @@
 (function() {
-    ver = "1.1"
+    ver = "1.1.1"
     console.log("Auto study.hanoi.edu.vn by C67(♕RED♚QUEEN♕) ver "+ ver)
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
@@ -33,31 +33,42 @@
                 var x = div.getElementsByClassName("question-box");
                 for(i=0;i<x.length;i++){
                     ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\$|\t)/gm, "");
-                    if(x[i].getElementsByTagName("img").length == 4){
-                        if(x[i].getElementsByClassName("text-primary")[0] != null)
+                    try{
+                        ques += x[i].getElementsByTagName("img")[0].alt
+                    }catch{}
+                    try{
+                        try{
                             ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt]);
-                        else
+                            continue;
+                        }catch{
                             ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt]);
-                        continue
-                    }
-                    if(x[i].getElementsByClassName("text-primary")[0] != null)
+                            continue
+                        }
+                    }catch{}
+                    try{
                         ans.push([ques,x[i].getElementsByClassName("text-primary")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
-                    else
+                    }catch{
                         ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
-                }
+                		}
+				}
             }
         });
         var buttons = document.querySelectorAll('input[type="radio"]')
         x = document.getElementsByClassName("question-box")
         for(i=0;i<x.length;i++){
             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\t|\$)/gm, "")
+            try{
+                ques += x[i].getElementsByTagName("img")[0].alt
+            }catch{
+            }
             ansList = x[i].querySelectorAll('input[type="radio"]')
             ansList2 = []
             for(l=0;l<ansList.length;l++){
-                if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
+                try{
                     ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
-                else
+                }catch{
                     ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
+				}
             }
             var j=0;
             for(j=0;j<ans.length;j++){
