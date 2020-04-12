@@ -1,5 +1,5 @@
 (function() {
-    ver = "1.1.1"
+    ver = "1.2"
     console.log("Auto study.hanoi.edu.vn by C67(♕RED♚QUEEN♕) ver "+ ver)
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
@@ -21,6 +21,7 @@
     if(!bID)
         alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕) " + ver + "\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
     else{
+        desiredPoint = parseFloat(prompt("Phiên bản mới 1.2\nNhập số điểm tối thiểu bạn muốn","10"))
         var ans = [];
         $.ajax({
             type: "GET",
@@ -55,7 +56,11 @@
         });
         var buttons = document.querySelectorAll('input[type="radio"]')
         x = document.getElementsByClassName("question-box")
+        pointPerAns = 10/x.length
+        cPoint = 0
         for(i=0;i<x.length;i++){
+            if(cPoint >= desiredPoint)
+                break
             ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\t|\$)/gm, "")
             try{
                 ques += x[i].getElementsByTagName("img")[0].alt
@@ -88,6 +93,7 @@
                     else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
                         ansList[k].onclick()
                 }
+                cPoint += pointPerAns
             }catch{
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
                 continue
