@@ -85,6 +85,10 @@
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
+### -4, Trước khi bắt đầu :warning:
+   - Đầu tiên nếu bạn làm môn toán hãy tắt MathJax đi trước, nếu không sẽ không dùng được code. Cách tắt: Sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. 
+   - **Các công thức toán sẽ tự động chuyển về dạng chữ rất khó nhìn. Nếu muốn trở lại như cũ thì chuột phải vào công thức, Math Settings > Math Renderer > SVG hoặc là các tùy chọn khác không phải "Plain Source". Quá trình sẽ mất khoảng vài giây đến chục giây! Nếu không có nhu cầu đọc các công thức toán đó thì để nguyên cũng được, lần sau không phải tắt MathJax nữa!**
+
 ### -3, Tổng quan về phiên bản Auto hiện tại (1.2):
    - Các môn học hỗ trợ: Toàn bộ
    - Chức năng mới: Điểm tối thiểu. Sau khi code chạy, sẽ có một khung hiện lên cho bạn nhập điểm (mặc định là 10). Ví dụ bạn điền là 9 điểm thì code sẽ tự điền đáp án sao cho điểm của bạn là tối thiểu và vẫn lớn hơn 9 điểm.
@@ -111,20 +115,11 @@
    - **Cách 1: (cách cũ chạy 2 lần)**
      - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
      - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
-       - Lưu ý nhé: Nếu đề đó bạn đã làm một lần rồi (sau thời gian cập nhật) thì có thể vào trang kết quả của đề đó làm lại B2 nhé!
      - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
-      
-     - **Với các đề toán sẽ hơi khác một chút. (Cần tắt MathJax)** :warning:
-       - Bx.1: Vào một đề toán bất kì, cũng chọn ít nhất 1 câu và nộp bài
-       - Bx.2: Cũng nhấn F12, vào Console, paste code trong file "getCorrectAnswers.js" vào và Enter
-       - Bx.3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
-       - Bx.4: Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
    - **Cách 2: (Cho code "auto_v2.js", chi cần chạy 1 lần là xong)**
      - B1: Vào một đề bất kì
-       - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
      - B2: Vào file "fullyAutomaticCode.js", copy và paste vào console, Enter là được. Nếu hiện lên là mã đề không hỗ trợ thì hãy trở về cách 1 nhé!
      - _Mình sẽ cố gắng cập nhật thêm các mã đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
-   - **Khi thực hiện các bước (*) rồi thì các lần sau các công thức toán sẽ tự động chuyển về như vậy. Nếu muốn trở lại như cũ thì chuột phải vào công thức, Math Settings > Math Renderer > SVG hoặc là các tùy chọn khác không phải "Plain Source". Quá trình sẽ mất khoảng vài giây đến chục giây!**
 
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
