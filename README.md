@@ -1,9 +1,9 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
-- **10:41 SA 12/04/2020 GMT+7**:
-   + Hiện nay, vì lí do nào đo mà code thiết lập tự động không chạy đối với môn toán (vẫn chạy ầm ầm với các môn khác). Cách khắc phục vô cùng đơn giản, bạn chỉ cần vào file "fullyAutomaticCode.js" copy code và paste vào Console là xong việc luôn! Nếu không được thì bạn chuyển sang cách thủ công nhé!
-   + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo!
+- **11:11 SA 12/04/2020 GMT+7**:
+   + Mình đã fix bug xong và bây giờ code auto có thể chạy với mọi đề rồi yeye!
+   + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo nhé!
    + **FROM _♕RED♚QUEEN♕_  !** 
 
 - **9:49 CH 11/04/2020 GMT+7**:
