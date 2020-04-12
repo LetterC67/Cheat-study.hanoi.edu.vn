@@ -1,5 +1,5 @@
 (function() {
-    ver = "1.0.1"
+    ver = "1.0.2"
     console.log("Auto study.hanoi.edu.vn by C67(♕RED♚QUEEN♕) ver "+ ver)
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
@@ -47,31 +47,34 @@
                 }
             }
         });
+        console.log("pass 1",ans)
         var buttons = document.querySelectorAll('input[type="radio"]')
         x = document.getElementsByClassName("question-box")
         for(i=0;i<x.length;i++){
-            ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\t)/gm, "")
+            ques = x[i].getElementsByClassName("col-11 question-box-title")[0].innerText.replace(/(\n| |\t|\$)/gm, "")
             ansList = x[i].querySelectorAll('input[type="radio"]')
             ansList2 = []
             for(l=0;l<ansList.length;l++){
                 if(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img").length)
                     ansList2.push(ansList[l].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
                 else
-                    ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
+                    ansList2.push(ansList[l].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
             }
             var j=0;
             for(j=0;j<ans.length;j++){
                 if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
                     break;
             }
+            console.log("pass 2",j)
             if(ans[j][1] == null){
                 console.log("Có vấn đề với câu " + (i+1).toString() + ". Bạn có thể tự làm lại câu đó nhé!")
                 continue
             }
+            console.log("pass 3")
             for(k=0;k<ansList.length;k++){
                 if(ansList[k].parentNode.nextElementSibling.getElementsByTagName("img").length && ans[j][1] == ansList[k].parentNode.nextElementSibling.getElementsByTagName("img")[0].alt)
                     ansList[k].onclick()
-                else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t)/gm, ""))
+                else if(ans[j][1] == ansList[k].parentNode.nextElementSibling.innerText.replace(/(\n| |\t|\$)/gm, ""))
                     ansList[k].onclick()
             }
         }
