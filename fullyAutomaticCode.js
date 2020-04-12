@@ -1,5 +1,5 @@
 (function() {
-    ver = "1.0.2"
+    ver = "1.1"
     console.log("Auto study.hanoi.edu.vn by C67(♕RED♚QUEEN♕) ver "+ ver)
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
@@ -63,6 +63,12 @@
             for(j=0;j<ans.length;j++){
                 if(ques == ans[j][0] && ansList2.includes(ans[j][1]))
                     break;
+            }
+            if(j==x.length){
+                for(j=0;j<ans.length;j++){
+                    if(ansList2.includes(ans[j][1]))
+                        break;
+                }
             }
             try{
                 for(k=0;k<ansList.length;k++){
