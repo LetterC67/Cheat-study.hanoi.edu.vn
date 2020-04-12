@@ -1,5 +1,6 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
+## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## N/ Thông báo :exclamation:
 - **11:11 SA 12/04/2020 GMT+7**:
    + Mình đã fix bug xong và bây giờ code auto (mục II/-2) có thể chạy với mọi đề rồi yeye!
