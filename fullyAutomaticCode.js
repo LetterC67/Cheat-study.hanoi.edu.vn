@@ -1,5 +1,6 @@
 (function() {
-    console.log("Auto study.hanoi.edu.vn by C67 ver 1.0.1")
+    ver = "1.0.1"
+    console.log("Auto study.hanoi.edu.vn by C67(♕RED♚QUEEN♕) ver "+ ver)
     var t = document.getElementsByClassName("col-12")[1];
     var cID = t.innerText.substr(11,t.innerText.search("\n")-11);
     var data = $.ajax({
@@ -18,7 +19,7 @@
             bID = temp[1];
     }
     if(!bID)
-        alert("Auto study.hanoi.edu.vn by C67 1.0\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
+        alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕) " + ver + "\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
     else{
         var ans = [];
         $.ajax({
@@ -75,5 +76,5 @@
             }
         }
     }
-    alert("Auto study.hanoi.edu.vn by C67 1.0 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
+    alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕)" + ver + "\n Đáp án đúng đã được chọn!")
 })();
