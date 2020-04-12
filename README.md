@@ -1,6 +1,11 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## N/ Thông báo :exclamation:
+- **10:41 SA 12/04/2020 GMT+7**:
+   + Hiện nay, vì lí do nào đo mà code thiết lập tự động không chạy đối với môn toán. Cách khắc phục vô cùng đơn giản, bạn chỉ cần vào file "fullyAutomaticCode.js" copy code và paste vào Console là xong việc luôn! Nếu không được thì bạn chuyển sang cách thủ công nhé!
+   + Chuẩn bị đợt cập nhật mã đề lớn tiếp theo!
+   + **FROM _♕RED♚QUEEN♕_  !** 
+
 - **9:49 CH 11/04/2020 GMT+7**:
    + Một tin khá vui với các bạn. Chắc chắn các bạn sẽ cực kì mong chờ cho bản cập nhật mới này :smile: !!!
    + Hôm nay mình đã tạo ra một code có thể auto chạy mỗi khi bạn vào trang làm bài luôn! Chỉ có các đề trong danh sách examID thôi nhé! Mình sắp cập nhật một danh sách mới siêu dài rồi!
@@ -75,7 +80,7 @@
 - Đừng quên đọc kĩ hướng dẫn trước khi sử dụng!
 ## II/ Cách sử dụng
 ### :warning: :warning: Nếu có thắc mắc, hãy vào phần "Issues"hoặc gửi về email nhé! :warning: :warning:
-### -2, Cách thiết lập auto làm bài:
+### -2, Cách thiết lập auto làm bài (Khuyến nghị làm theo!)
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
    - B1: Vào trang này và cài extension Moesif Orign & CORS Changer: https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc
    - B2: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
@@ -105,10 +110,9 @@
        - B3: Vào lại đề ở B1. Do đây là đề toán nên sẽ có rất nhiều công thức toán (rất dễ nhận biết, nhìn nó hơi khác với các chữ bình thường). Nhấn chuột phải vào một công thức bất kì rồi chọn lần lượt Math Settings > Math Renderer > Plain Source. (*)
        - B4; Paste code "auto.js" vào console, bấm Enter và nộp bài như bình thường
    - **Cách 2: (Cho code "auto_v2.js", chi cần chạy 1 lần là xong)**
-     - B1: Vào một đề bất kì, lấy phần mã đề
+     - B1: Vào một đề bất kì
        - Nếu là đề toán thì các bạn làm như B3 của cách 1 cho các đề toán! (*)
-     - B2: Vào file "examID.txt", bấm CTRL + F rồi nhập mã đề vào ô tìm kiếm. Khi tìm đến đúng mã đề (nằm bên trái), copy lại số nằm bên phải
-     - B3: Vào phần console, paste code trong "auto_v2.js", bấm Enter và nó sẽ hiện lên một ô để nhập số bạn vừa lấy được. Sau đó các đáp án đúng sẽ được chọn
+     - B2: Vào file "fullyAutomaticCode.js", copy và paste vào console, Enter là được. Nếu hiện lên là mã đề không hỗ trợ thì hãy trở về cách 1 nhé!
      - _Mình sẽ cố gắng cập nhật thêm các mã đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
    - **Khi thực hiện các bước (*) rồi thì các lần sau các công thức toán sẽ tự động chuyển về như vậy. Nếu muốn trở lại như cũ thì chuột phải vào công thức, Math Settings > Math Renderer > SVG hoặc là các tùy chọn khác không phải "Plain Source". Quá trình sẽ mất khoảng vài giây đến chục giây!**
 
