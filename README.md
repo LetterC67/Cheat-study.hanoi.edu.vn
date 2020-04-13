@@ -103,22 +103,16 @@
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
    - B1: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
    - B2: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "getAutoCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
-   - B3: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo cách 1 ở phần II/-1.
+   - B3: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo phần II/-1.
    - **Youtube để xem cách làm: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg**
    - **Xin lưu ý: Bất cứ khi nào bạn vào một thì code sẽ tự chạy như ở B5. Để tắt đi thì bạn bấm vào biểu tượng của Tampermonkey và bấm vào "Enabled". Sau đó nó sẽ chuyển thành "Disabled"**
    - **Bạn có thể vào Console để xem code chạy hay có vấn đề gì thì code sẽ in ra ở đó!**
    - **Có gì chưa rõ các bạn vào phần "Issues" hoặc gửi về email cho mình nhé!**
 
-### -1, Hướng dẫn cho bản cập nhật mới:  :arrow_left: :exclamation:
-#### Việc này đơn giản chỉ là lấy đáp án ở phần chi tiết bài làm rồi lại tự động điền vào bài của bạn thôi! Nó sẽ giúp các bạn có deadline khó nhằn giải quyết công việc nhanh hơn một chút!
-   - **Cách 1: (cách cũ chạy 2 lần)**
-     - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
-     - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
-     - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
-   - **Cách 2: (Cho code "auto_v2.js", chi cần chạy 1 lần là xong)**
-     - B1: Vào một đề bất kì
-     - B2: Vào file "fullyAutomaticCode.js", copy và paste vào console, Enter là được. Nếu hiện lên là mã đề không hỗ trợ thì hãy trở về cách 1 nhé!
-     - _Mình sẽ cố gắng cập nhật thêm các mã đề. Nếu không tìm được thì hãy tiếp tục cách 1 nhé_
+### -1, Hướng dẫn cách chạy thủ công
+  - B1: Vào một đề bất kì, chọn ÍT NHẤT 1 CÂU
+  - B2: Có thể bán sẽ nhận được điểm 0 nhưng đó không phải là điều cần quan tâm. Bấm vào nút "Chi tiết bài làm", sẽ có đáp án hiện lên. Vào file "getCorrectAnswers.js", bấm F12 để bật Chrome DevTools, vào phần Console để nhập code.
+  - B3: Vào lại đề ở B1, lấy code "auto.js" để nhập vào console. Xong rồi bấm nút "Nộp bài"
 
 ### ~~0. Tính năng mới!~~
    - Để thuận tiện cho việc học, ôn tập của các bạn, mình đã làm thêm chức năng tải đề cùng đáp án xuống. Khi bạn chạy code trong file "downloadAnswerKey.js", (chỉ khi bạn chạy các code để lấy đáp án, _**mời bạn đọc phần dưới để rõ hơn!**_), hệ thống sẽ tải file "dap_an.txt" xuống gồm đề và đáp án. Bạn có thể dúng làm tư liệu học tập hoặc gửi cho bạn bè tham khảo dễ dàng hơn!
