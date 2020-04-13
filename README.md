@@ -2,6 +2,10 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## N/ Thông báo :exclamation:
+- **11:30 SA 13/04/2020 GMT+7**:
+   + Sau khi nhập được đề xuất của các bạn thì mình đã tạo một kênh Youtube: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg. Các bạn vào đây để xem hướng dẫn chi tiết nhé!
+    + **FROM _♕RED♚QUEEN♕_  !** 
+   
 - **7:33 CH 12/04/2020 GMT+7**:
    + Mình bổ sung thêm phần tổng quan về phiên bản Auto mới (II/-3). Các bạn có thể xem hướng dẫn của các chức năng mới của code Auto (II/-2) ở đó!
    + **FROM _♕RED♚QUEEN♕_  !** 
