@@ -19,7 +19,7 @@
             bID = temp[1];
     }
     if(!bID)
-        alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕) " + ver + "\nĐề không hỗ trợ! Bạn hãy sử dụng cách khác nhé!");
+        alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕) " + ver + "\nĐề không hỗ trợ!\n Bạn hãy vào repo của mình: https://github.com/LetterC67/Cheat-study.hanoi.edu.vn để xem cách thủ công!");
     else{
         desiredPoint = parseFloat(prompt("Phiên bản mới 1.2\nNhập số điểm tối thiểu bạn muốn","10"))
         var ans = [];
