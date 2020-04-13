@@ -100,17 +100,10 @@
    
 ### -2, Cách thiết lập auto làm bài (Khuyến nghị làm theo!)
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
-   - B1: Vào trang này và cài extension Moesif Orign & CORS Changer: https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc
-   - B2: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
-   - B3: Ở góc trên cùng bên phải, bấm vào extension Moesif Orign & CORS Changer và chọn "Switch On". 
-      
-   - B4: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "getAutoCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
-   
-      ![](img/h.PNG)
-     - Tampermonkey được khoanh đỏ, Moesif Orign & CORS Changer khoanh màu vàng!
-   - B5: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo cách 1 ở phần II/-1.
+   - B1: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
+   - B2: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "getAutoCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
+   - B3: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo cách 1 ở phần II/-1.
    - **Xin lưu ý: Bất cứ khi nào bạn vào một thì code sẽ tự chạy như ở B5. Để tắt đi thì bạn bấm vào biểu tượng của Tampermonkey và bấm vào "Enabled". Sau đó nó sẽ chuyển thành "Disabled"**
-   - **Extension Moesif Orign & CORS Changer có thể khiến Youtube của các bạn không xem được hoặc có trang nào không hoạt động không thì mình vẫn chưa biết. Nếu không dùng thì các bạn tắt đi là mọi thứ trở lại bình thường nhé!**
    - **Bạn có thể vào Console để xem code chạy hay có vấn đề gì thì code sẽ in ra ở đó!**
    - **Có gì chưa rõ các bạn vào phần "Issues" hoặc gửi về email cho mình nhé!**
 
