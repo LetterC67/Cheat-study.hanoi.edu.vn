@@ -4,7 +4,8 @@
 ## N/ Thông báo :exclamation:
 - **11:30 SA 13/04/2020 GMT+7**:
    + Sau khi nhập được đề xuất của các bạn thì mình đã tạo một kênh Youtube: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg. Các bạn vào đây để xem hướng dẫn chi tiết nhé!
-    + **FROM _♕RED♚QUEEN♕_  !** 
+   + **Các bạn có thể gỡ extension Moesif Orign & CORS Changer đi nhé vì nó không có tác dụng! Vô cùng xin lỗi các bạn!**
+   + **FROM _♕RED♚QUEEN♕_  !** 
    
 - **7:33 CH 12/04/2020 GMT+7**:
    + Mình bổ sung thêm phần tổng quan về phiên bản Auto mới (II/-3). Các bạn có thể xem hướng dẫn của các chức năng mới của code Auto (II/-2) ở đó!
