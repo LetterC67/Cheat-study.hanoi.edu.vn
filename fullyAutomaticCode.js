@@ -99,6 +99,6 @@
                 continue
             }
         }
+	alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕)" + ver + "\n Đáp án đúng đã được chọn!")
     }
-    alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕)" + ver + "\n Đáp án đúng đã được chọn!")
 })();
