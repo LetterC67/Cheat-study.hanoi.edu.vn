@@ -101,7 +101,9 @@
    
 ### -2, Cách thiết lập auto làm bài (Khuyến nghị làm theo!)
    - _Tin vui nè: Hơi dài và phức tạp nhưng bạn chỉ cần thiết lập 1 lần là chạy cả đời nhé!!!_
-   - B1: Cài tiếp extension Tampermonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
+   - B1: Cài tiếp extension Tampermonkey: 
+      + Chrome & Cốc Cốc: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=vi
+      + Firefox: https://addons.mozilla.org/vi/firefox/addon/tampermonkey/
    - B2: Bấm vào biểu tượng của extension Tampermonkey, chọn "Create a new script". Lúc này bạn được chuyển đến một trang khác, paste đoạn code có trong "getAutoCode.js" vào. Bấm Ctrl+S để lưu lại. Code đã tự động Enable
    - B3: Vào một đề, khi bạn vào rồi sẽ có 2 khả năng. Một là nó sẽ tự động điền đáp án cho bạn ngay lập tức, hai là báo đề không hỗ trợ. Trong trường hợp 2 bạn cần làm theo phần II/-1.
    - **Youtube để xem cách làm: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg**
