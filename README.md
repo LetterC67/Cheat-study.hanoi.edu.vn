@@ -1,6 +1,6 @@
 # Lấy đáp án cho study.hanoi.edu.vn
-## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
+## :warning: This project is no longer supported :warning:
 ## N/ Thông báo :exclamation:
 - **6:06 CH 15/04/2020 GMT+7**:
    + Hệ thống đã sửa lại cách auto rồi. Theo mình thì đây là một lỗ hổng khá là nghiêm trọng nên mình biết kiểu gì cũng đến ngày này. Từ bây giờ cách auto không dùng được nữa. Cách duy nhất là làm thủ công 2 lần thôi.
