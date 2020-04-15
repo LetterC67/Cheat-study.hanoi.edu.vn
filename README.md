@@ -4,7 +4,7 @@
 ## N/ Thông báo :exclamation:
 - **6:06 CH 15/04/2020 GMT+7**:
    + Hệ thống đã sửa lại cách auto rồi. Theo mình thì đây là một lỗ hổng khá là nghiêm trọng nên mình biết kiểu gì cũng đến ngày này. Từ bây giờ cách auto không dùng được nữa. Cách duy nhất là làm thủ công 2 lần thôi.
-   + Cảm ơn các bạn đã đồng hành cùng mình.
+   + Cảm ơn các bạn đã đồng hành cùng mình. Mà mình mới lớp 9 thôi :confused:
    + **FROM _♕RED♚QUEEN♕_  !** 
 
 - **11:30 SA 13/04/2020 GMT+7**:
