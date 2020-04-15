@@ -2,6 +2,11 @@
 ## :warning: CHÚ Ý: ĐÃ CÓ CODE MỚI! CÁC BẠN CHÚ Ý THEO DÕI REPO NÀY ĐỂ CÓ THÔNG TIN SỚM NHẤT!
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## N/ Thông báo :exclamation:
+- **6:06 CH 15/04/2020 GMT+7**:
+   + Hệ thống đã sửa lại cách auto rồi. Theo mình thì đây là một lỗ hổng khá là nghiêm trọng nên mình biết kiểu gì cũng đến ngày này. Từ bây giờ cách auto không dùng được nữa. Cách duy nhất là làm thủ công 2 lần thôi.
+   + Cảm ơn các bạn đã đồng hành cùng mình. Xin lỗi những anh nào học cấp 3 gọi mình là anh vì mình mới lớp 9.
+   + **FROM _♕RED♚QUEEN♕_  !** 
+
 - **11:30 SA 13/04/2020 GMT+7**:
    + Sau khi nhập được đề xuất của các bạn thì mình đã tạo một kênh Youtube: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg. Các bạn vào đây để xem hướng dẫn chi tiết nhé!
    + **Các bạn có thể gỡ extension Moesif Orign & CORS Changer đi nhé vì nó không có tác dụng! Vô cùng xin lỗi các bạn!**
