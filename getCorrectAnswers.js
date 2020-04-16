@@ -31,3 +31,4 @@ for(i=0;i<x.length;i++){
 	}
 }
 copyStringToClipboard(JSON.stringify(ans))
+alert("Hãy mở một file notepad, bấm và bấm Ctrl + V sẽ có phần đáp án hiện ra, giữ lại để bước sau dùng!")
