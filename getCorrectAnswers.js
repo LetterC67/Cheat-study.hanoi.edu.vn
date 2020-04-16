@@ -1,3 +1,13 @@
+function copyStringToClipboard (str) {
+   var el = document.createElement('textarea');
+   el.value = str;
+   el.setAttribute('readonly', '');
+   el.style = {position: 'absolute', left: '-9999px'};
+   document.body.appendChild(el);
+   el.select();
+   document.execCommand('copy');
+   document.body.removeChild(el);
+}
 var ans = [];
 var x = document.getElementsByClassName("question-box");
 for(i=0;i<x.length;i++){
@@ -20,4 +30,4 @@ for(i=0;i<x.length;i++){
 		ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
 	}
 }
-localStorage.setItem("ans",JSON.stringify(ans))
+copyStringToClipboard(JSON.stringify(ans))
