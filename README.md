@@ -2,6 +2,12 @@
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## :warning: This project is no longer supported :warning:
 ## N/ Thông báo :exclamation:
+- **4:46 CH 16/04/2020 GMT+7**:
+   + Hệ thống vừa cập nhật tiếp, mình đã làm lại bản cuối cùng rồi. Nếu sau này hệ thống lại sửa nốt thì mình sẽ không tiếp tục làm nữa!
+   + Mình khá buồn khi nhiều bạn quá lạm dụng cheat mà không làm tí gì cả. Nhiều người ở các tỉnh khác còn không có một hệ thống đề luyện đa dạng như thế này mà làm đâu.
+   + Nếu hệ thống lại sửa nốt thì thực sự đây cũng là cơ hội cho những bạn quá lười, cho các bạn tự sức mình làm. Tuy vậy, mình cũng xin lỗi những bạn thực sự có quá nhiều bài tập nên cần dùng đến cheat (cả trăm đề một tuần đó). Bản thân là một học sinh, mình cũng có nhiều việc khác phải làm nữa nên không có thời gian để tiếp tục!
+   + **FROM _♕RED♚QUEEN♕_  !** 
+
 - **6:06 CH 15/04/2020 GMT+7**:
    + Hệ thống đã sửa lại cách auto rồi. Theo mình thì đây là một lỗ hổng khá là nghiêm trọng nên mình biết kiểu gì cũng đến ngày này. Từ bây giờ cách auto không dùng được nữa. Cách duy nhất là làm thủ công 2 lần thôi.
    + Cảm ơn các bạn đã đồng hành cùng mình. Mà mình mới lớp 9 thôi :confused:
