@@ -2,7 +2,7 @@
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## :warning: This project is no longer supported :warning:
 ## -I/ Donate:
-   - Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôn cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
+   - Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôm cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
    + Các phương thức donate:
      + Các bạn có thể gửi thẻ điện thoại vào email của mình: congtytotovietnam@gmail.com 
      + Chuyển qua ví MoMo theo số điện thoại: 0925867646
