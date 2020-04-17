@@ -1,6 +1,12 @@
 # Lấy đáp án cho study.hanoi.edu.vn
 ## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## :warning: This project is no longer supported :warning:
+## -I/ Donate:
+   - Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôn cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
+   + Các phương thức donate:
+     + Các bạn có thể gửi thẻ điện thoại vào email của mình: congtytotovietnam@gmail.com 
+     + Chuyển qua ví MoMo theo số điện thoại: 0925867646
+   + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
 - **9:28 SA 17/04/2020**:
    + Có khá nhiều bạn thắc mắc về bản vá vừa rồi nên đây sẽ là hướng dẫn luôn!
@@ -8,11 +14,6 @@
    + B2: Bây giờ bạn cần mở cái gì đó có thể paste được vào tạm thời (Notepad, Word,...). Mở lên rồi bấm Ctrl + V rồi bạn sẽ thấy đáp án
    + B3: Vào làm bài lại, paste code "auto.js" vào Console. Nếu nó bảo điền đáp án thì bạn paste đáp án lấy được ở B2 vào là xong
    + B4: Nộp bài :smile:
-   + _**DONATE**_: Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôn cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
-      + Các phương thức donate:
-        + Các bạn có thể gửi thẻ điện thoại vào email của mình: congtytotovietnam@gmail.com 
-        + Chuyển qua ví MoMo theo số điện thoại: 0925867646
-      + Rất cảm ơn tấm lòng hảo tâm của các bạn!
    + **FROM _♕RED♚QUEEN♕_  !** 
 
 - **4:46 CH 16/04/2020 GMT+7**:
