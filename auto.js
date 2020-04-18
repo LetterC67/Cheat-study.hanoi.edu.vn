@@ -3,7 +3,7 @@ desiredPoint = prompt("Nhập số điểm tối thiểu","10")
 x = document.getElementsByClassName("question-box")
 pointPerAns = 10/x.length
 cPoint = 0
-ans = JSON.parse(prompt("Paste đáp án phần vừa copy được vào đây"))
+ans = JSON.parse(sessionStorage.getItem("ans"))
 for(i=0;i<x.length;i++){
     if(cPoint >= desiredPoint)
         break
