@@ -8,12 +8,8 @@
      + 2: Chuyển qua ví MoMo theo số điện thoại: 0925867646
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
-- **9:28 SA 17/04/2020**:
-   + Có khá nhiều bạn thắc mắc về bản vá vừa rồi nên đây sẽ là hướng dẫn luôn!
-   + B1: Sau khi nộp bài xong như, bấm vào chi tiết bài làm, nhấn F12 rồi vào Console, paste code "getCorrectAnswers.js" vào.
-   + B2: Bây giờ bạn cần mở cái gì đó có thể paste được vào tạm thời (Notepad, Word,...). Mở lên rồi bấm Ctrl + V rồi bạn sẽ thấy đáp án
-   + B3: Vào làm bài lại, paste code "auto.js" vào Console. Nếu nó bảo điền đáp án thì bạn paste đáp án lấy được ở B2 vào là xong
-   + B4: Nộp bài :smile:
+- **4:05 CH 18/04/2020 GMT+7**:
+   + Code thủ công trở lại bình thường rồi, làm như cũ nhé!
    + **FROM _♕RED♚QUEEN♕_  !** 
 
 - **4:46 CH 16/04/2020 GMT+7**:
