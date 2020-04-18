@@ -20,4 +20,4 @@ for(i=0;i<x.length;i++){
 		ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
 	}
 }
-sessionStorage.setItem("ans",ans)
+sessionStorage.setItem("ans",JSON.stringify(ans))
