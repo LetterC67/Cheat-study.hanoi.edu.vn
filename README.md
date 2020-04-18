@@ -4,8 +4,8 @@
 ## -I/ Donate:
    - Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôm cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
    + Các phương thức donate:
-     + Các bạn có thể gửi thẻ điện thoại vào email của mình: congtytotovietnam@gmail.com 
-     + Chuyển qua ví MoMo theo số điện thoại: 0925867646
+     + 1: Các bạn có thể gửi mã thẻ điện thoại vào email của mình: congtytotovietnam@gmail.com 
+     + 2: Chuyển qua ví MoMo theo số điện thoại: 0925867646
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
 - **9:28 SA 17/04/2020**:
