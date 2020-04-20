@@ -9,7 +9,7 @@
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
 - **4:05 CH 18/04/2020 GMT+7**:
-   + Code thủ công trở lại bình thường rồi, làm như cũ nhé!
+   + Code thủ công trở lại bình thường rồi, làm như cũ nhé! Kênh Youtube hướng dẫn chính thức: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg
    + **FROM _♕RED♚QUEEN♕_  !** 
 
 - **4:46 CH 16/04/2020 GMT+7**:
