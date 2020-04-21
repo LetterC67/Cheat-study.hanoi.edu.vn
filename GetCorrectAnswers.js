@@ -33,5 +33,5 @@ for(i=0;i<x.length;i++){
 	}
 }
 sessionStorage.setItem("ans",JSON.stringify(ans))
-copyStringToClipboard(str)
+copyStringToClipboard(ans)
 console.log("Nếu bạn không muốn chia sẻ đáp án bạn vừa lấy được thì hãy bỏ qua! Nếu không đáp án đã được tự động copy lại, bạn hãy paste ra đâu đó rồi gửi cho bạn bè dùng lại!")
