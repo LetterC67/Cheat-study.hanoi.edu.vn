@@ -47,4 +47,5 @@ for(i=0;i<x.length;i++){
         continue
     }
 }
+sessionStorage.clear()
 alert("Auto study.hanoi.edu.vn by C67 (♕RED♚QUEEN♕)\n Đáp án đúng đã được chọn!")
