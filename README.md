@@ -8,6 +8,11 @@
      + 2: Chuyển qua ví MoMo theo số điện thoại: 0925867646
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
+- **8:27 CH 21/04/2020 GMT+7**:
+   + Sau khi bạn lấy đáp án thì đáp án tự động được copy lại, hãy paste ra và gửi cho bạn bè!
+   + Để sử dụng đáp án có sẵn, chỉ cần paste code "auto.js" khi vào thi thì sẽ hiện ra một khung để bạn điền đáp án vào!
+   + **FROM _♕RED♚QUEEN♕_  !**
+
 - **4:05 CH 18/04/2020 GMT+7**:
    + Code thủ công trở lại bình thường rồi, làm như cũ nhé! Kênh Youtube hướng dẫn chính thức: https://www.youtube.com/channel/UC2h_FyXgyfGyUa9TVriLrUg
    + **FROM _♕RED♚QUEEN♕_  !** 
