@@ -1,4 +1,4 @@
-// Các bạn có thể đăng nhập vào tài khoản khác để đáp án trước xong trở lại tài khoản cũng được nhé!
+// Các bạn có thể đăng nhập vào tài khoản khác để đáp án trước xong trở lại tài khoản cũng được nhé!!
 function copyStringToClipboard (str) {
    var el = document.createElement('textarea');
    el.value = str;
