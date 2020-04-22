@@ -9,8 +9,8 @@
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
 - **8:27 CH 21/04/2020 GMT+7**:
-   + Sau khi bạn lấy đáp án thì đáp án tự động được copy lại, hãy paste ra và gửi cho bạn bè!
-   + Để sử dụng đáp án có sẵn, chỉ cần paste code "auto.js" khi vào thi thì sẽ hiện ra một khung để bạn điền đáp án vào!
+   + Sau khi bạn lấy đáp án thì đáp án TỰ ĐỘNG được copy lại. Bạn cần vào một chỗ nào đó và paste ra. Phần được paste ra là đáp án. Hãy gửi cho bạn bè!
+   + Để sử dụng đáp án có sẵn. Bạn chỉ cần vào thi và paste code "auto.js" vào console (không chạy "GetCorrectAnswers.js" nữa! Khi chạy thì sẽ hiện ra một khung để bạn điền đáp án vào!
    + **FROM _♕RED♚QUEEN♕_  !**
 
 - **4:05 CH 18/04/2020 GMT+7**:
