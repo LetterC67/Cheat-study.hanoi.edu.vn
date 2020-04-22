@@ -5,7 +5,7 @@ pointPerAns = 10/x.length
 cPoint = 0
 ans = JSON.parse(sessionStorage.getItem("ans"))
 if(!ans)
-    ans = prompt("Hãy nhập đáp án!")
+    ans = JSON.parse(prompt("Hãy nhập đáp án!"))
 for(i=0;i<x.length;i++){
     if(cPoint >= desiredPoint)
         break
