@@ -8,6 +8,11 @@
      + 2: Chuyển qua ví MoMo theo số điện thoại: 0925867646
    + Rất cảm ơn tấm lòng hảo tâm của các bạn!
 ## N/ Thông báo :exclamation:
+- **9:55 CH 24/04/2020 GMT+7**:
+   + Vậy là Việt Nam có thể nó là kiểm soát được dịch rồi, một tin khá là vui đúng không nào :smile: 
+   + Mình biết là có rất nhiều người sử dụng code của mình, ban đầu mình làm code là muốn giúp các bạn có quá nhiều bài tập nhưng mà có vẻ số lượng này ít hơn, chán chưa :\ . Thôi dù sao cũng sắp đi học, các bạn cố gắng học tập, nhất là các bạn lớp 9 và các anh chị lớp 12, chúc mọi người thi tốt!!!
+   + **FROM _♕RED♚QUEEN♕_  !**
+   
 - **8:27 CH 21/04/2020 GMT+7**:
    + Sau khi bạn lấy đáp án thì đáp án TỰ ĐỘNG được copy lại. Bạn cần vào một chỗ nào đó và paste ra. Phần được paste ra là đáp án. Hãy gửi cho bạn bè!
    + Để sử dụng đáp án có sẵn. Bạn chỉ cần vào thi và paste code "auto.js" vào console (không chạy "GetCorrectAnswers.js" nữa! Khi chạy thì sẽ hiện ra một khung để bạn điền đáp án vào!
