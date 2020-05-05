@@ -1,5 +1,4 @@
 # Lấy đáp án cho study.hanoi.edu.vn
-## Nếu thấy code hay và có ích thì hãy cho mình một Star và đừng quên chia sẻ cho bạn bè nhé!
 ## :warning: This project is no longer supported :warning:
 ## -I/ Donate:
    - Dĩ nhiên là các bạn sử dụng code hoàn toàn miễn phí nhưng các bạn cũng có thể donate cho mình. Thực sự là để hoàn thành dự án này cần rất nhiều thời gian và công sức, nhiều hôm cực kì mỏi mắt nhưng vẫn phải cố làm nốt. Không quan trọng mệnh giá nhưng mỗi lần donate là các bạn có thể giúp mình mua được chiếc Card đồ họa cũ của anh thằng bạn mình :blush:
