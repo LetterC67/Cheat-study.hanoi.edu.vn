@@ -21,7 +21,11 @@ for(i=0;i<x.length;i++){
 			continue
 		
 	}catch{}
-		ans.push([ques,x[i].getElementsByClassName("text-success")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
+    try{
+		ans.push([ques,x[i].getElementsByClassName("text-success")[1].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
+    }catch{
+        ans.push([ques,x[i].getElementsByClassName("text-success")[0].parentNode.nextElementSibling.innerText.replace(/(\n| |\$|\t)/gm, "")])
+    }
 }
 copyStringToClipboard(JSON.stringify(ans))
 console.log("Đáp án được tự động copy, hãy paste vào đâu đó để dùng")
